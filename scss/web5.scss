@@ -1,0 +1,96 @@
+@import url(../css/web2.css);
+
+
+.journalism{
+    width: 1200px;
+    height: 1500px;
+    // background-color: pink;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    // align-items: center;
+
+    .journalism_content{
+        width: 1200px;
+        height: 280px;
+        // background-color: aquamarine;
+        display: flex;
+        // align-content: space-evenly;
+        align-items: center;
+        img{
+            // width: 344px;
+            // height: 268px;
+            margin-left: 67px;
+            margin-top: 6px;
+        }
+        .content_right{
+            width: 714px;
+	    height: 230px;
+        // background-color: chocolate;
+        margin-left: 43px;
+            
+            font-size: 18px;
+            line-height: 22px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+            p{
+                font-size: 14px;
+                    line-height: 22px;
+                    color: #333333;
+
+                    &:first-child {
+                            font-size: 18px;
+                            color: #1e4677;
+                        }
+            }
+                   
+            span{
+                font-size: 18px;
+                    line-height: 20px;
+                    color: #1e4677;
+            }
+        }
+    }
+    
+}
+
+
+
+
+.left_bottom {
+    width: 1200px;
+    height: 50px;
+    background-color: #1b2a65;
+    margin: auto;
+    margin-top: 50px;
+
+    p {
+        width: 100px;
+        height: 18px;
+        font-size: 18px;
+        letter-spacing: 4px;
+        color: #ffffff;
+        margin: auto;
+        line-height: 50px;
+    }
+}
+
+
+.bottom {
+    width: 1920px;
+    height: 24px;
+    border-top: 1px solid #a4a4a4;
+    margin-top: 20px;
+
+
+    p {
+        width: 500px;
+        height: 14px;
+        font-size: 12px;
+        color: #1b2a65;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    width: 1920px;
+    margin: auto;
+}
+.top {
+    width: 1920px;
+    height: 100px;
+    // background-color: pink;
+    display: flex;
+    justify-content: flex-start;
+
+    .logo {
+        width: 300px;
+        height: 100px;
+        margin-left: 300px;
+        text-align: center;
+        line-height: 100px;
+
+        img {
+
+            vertical-align: middle;
+        }
+
+        span {
+            margin-left: 30px;
+            font-size: 30px;
+            color: #1b2a65;
+            font-weight:1000;
+
+        }
+    }
+
+    ul {
+        width: 700px;
+        height: 100px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 380px;
+        margin-top: 41px;
+
+        a{
+            color: #000000;
+            font-size: 20px;
+            font-weight: 550;
+        }
+
+    }
+
+}
+
+
+.banner {
+    width: 1920px;
+    height: 833px;
+    background-image: url();
+}
+
+.banner_bottom {
+    width: 1920px;
+    height: 50px;
+
+    // background-color: pink;
+    ul {
+
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    li {
+
+        // width: 176px;
+        // display: block;
+        //    margin: 0 auto;
+        &:first-of-type {
+            border-bottom: 1px solid blue;
+        }
+    }
+}
+
+
+.content {
+    width: 1920px;
+    height: 200px;
+    // background-color:pink;
+    margin-top: 50px;
+
+    h3 {
+
+        font-size: 26px;
+        color: #999999;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 36px;
+        color: #333333;
+        text-align: center;
+    }
+
+    p {
+        width: 150px;
+        height: 50px;
+        background-color:  #1b2a65;;
+        display: block;
+        text-align: center;
+            font-size: 24px;
+            line-height: 20px;
+            letter-spacing: 0px;
+            line-height: 50px;
+            color: #ffffff;
+            margin: auto;
+    }
+}
+
+
+.conernt_wz{
+    width: 1200px;
+    height: 650px;
+    margin: auto;
+    color: #666666;
+    line-height: 22px;
+    font-size: 14px;
+    text-indent: 2em;
+}
+
+
+.content_tw1{
+    width: 1180px;
+    height: 400px;
+    margin: auto;
+    // background-color: pink;
+   display: flex;
+
+flex-wrap: wrap;
+  .divs{
+    margin-top: 90px;
+
+    p {
+            width: 520px;
+            // height: 290px;
+            // float: left;    
+            text-indent: 2em;
+            flex-wrap: wrap;
+    
+        }
+  }
+
+   
+    img{
+        width: 568px;
+            height: 356px;
+            // float: right;
+            margin-left: 87px;
+    }
+}
+
+
+.content_tw2 {
+    width: 1180px;
+    height: 400px;
+    margin: auto;
+    // background-color: pink;
+    display: flex;
+
+    flex-wrap: wrap;
+
+    margin-top: 50px;
+
+    .divs {
+        margin-top: 90px;
+        margin-left: 50px;
+
+        p {
+            width: 520px;
+            // height: 290px;
+            // float: left;    
+            text-indent: 2em;
+            flex-wrap: wrap;
+
+        }
+    }
+
+
+    img {
+        width: 568px;
+        height: 356px;
+        // float: right;
+        margin-left: 0px;
+        
+    }
+}
+
+
+.content_bttom{
+    width: 1200px;
+
+    display: flex;
+    justify-content: space-between;
+// flex-wrap: wrap;
+     
+    
+
+    .left{
+        
+        width: 380px;
+        height: 600px;
+        // background-color: pink;
+        margin-right: 24px;
+        flex-wrap: wrap;
+        img{
+            width: 376px;
+            height: 364px;
+            margin: auto;
+            margin-bottom: 28px;
+           
+        }
+        h3{
+           
+            width: 336px;
+            text-align: center;
+            color: #333333;
+            line-height: 50px;
+            margin: auto;
+            font-size: 24px;
+        }
+        p{
+            width: 336px;
+            text-indent: 2em;
+            text-align: center;
+            color: #333333;
+            font-size: 14px;
+            margin: auto;
+            line-height: 20px;
+        }
+    }
+}
+
+
+
+
+.content_tw1 .bottom99999 {
+    width: 1920px;
+    height: 24px;
+    align-self: center;
+    border-top: 1px solid #a4a4a4;
+    // margin-top: 100px;
+// background-color: pink;
+
+    p {
+        width: 500px;
+        height: 14px;
+        font-size: 12px;
+        color: #1b2a65;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+
+
+
