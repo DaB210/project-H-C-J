@@ -1,0 +1,341 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/* 禁用长按页面时弹出的菜单 */
+img,
+a {
+  -webkit-touchu-callout: none;
+}
+
+a {
+  /* 清除点击选中高亮 */
+  -webkit-tap-highlight-color: transparent;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.3333333333vw 13.3333333333vw 0;
+  background-color: #F6F6F6;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li a {
+  color: #333333;
+  text-align: center;
+}
+nav ul li a i {
+  font-size: 6.6666666667vmin !important;
+}
+nav ul li a p {
+  font-size: 3.2vmin;
+  line-height: 4vw;
+}
+nav ul .current a {
+  color: #884E22;
+}
+
+body {
+  background-color: #eaebef;
+}
+
+.header {
+  height: 11.2vw;
+  opacity: 1;
+  background: white;
+}
+.header p {
+  height: 10.6666666667vw;
+  color: #555555;
+  font-size: 4.2666666667vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+  line-height: 11.2vw;
+  text-align: center;
+}
+
+.background {
+  width: 100vw;
+  height: 37.0666666667vw;
+  background-image: url(../img/userPersonalCenter/bcg.jpg);
+  background-size: 100vw 37.0666666667vw;
+  position: relative;
+}
+.background .h5 {
+  margin-left: 34.0586666667vw;
+  line-height: 13.3333333333vw;
+}
+.background .h5 p {
+  color: white;
+  font-size: 3.7333333333vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+}
+.background .head {
+  width: 32vw;
+  height: 9.3333333333vw;
+  opacity: 1;
+  background-color: white;
+  margin: auto;
+}
+.background .head p {
+  opacity: 1;
+  color: #333333;
+  font-size: 3.7333333333vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+  text-align: center;
+  line-height: 9.3333333333vw;
+}
+
+.content_s {
+  width: 97vw;
+  height: 31.7333333333vw;
+  border-radius: 1.3333333333vw;
+  margin: auto;
+  opacity: 1;
+  background: white;
+  margin-top: 1.3333333333vw;
+}
+.content_s .top {
+  width: 89vw;
+  height: 12.2666666667vw;
+  margin: auto;
+  margin-top: 4vw;
+  opacity: 1;
+  border-bottom: 0.2666666667vw solid #e9ecf0;
+  display: flex;
+  justify-content: space-between;
+}
+.content_s .top p {
+  height: 4.5333333333vw;
+  opacity: 1;
+  color: #555555;
+  font-size: 3.7333333333vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+  text-align: left;
+  line-height: 16.2666666667vw;
+}
+.content_s .top p span {
+  font-size: 3.7333333333vw;
+}
+.content_s .bottom {
+  margin: auto;
+  width: 89vw;
+  display: flex;
+  justify-content: space-between;
+}
+.content_s .bottom a {
+  width: 11.2vw;
+}
+.content_s .bottom a span {
+  display: block;
+  margin-left: 2.9333333333vw;
+  color: #555555;
+  font-size: 4.8vw;
+  margin-bottom: 2.4vw;
+  margin-top: 4.2666666667vw;
+}
+.content_s .bottom a p {
+  opacity: 1;
+  color: #555555;
+  font-size: 3.7333333333vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+  text-align: left;
+}
+
+.content_x {
+  margin: auto;
+  margin-top: 1.3333333333vw;
+  border-radius: 1.3333333333vw;
+  opacity: 1;
+  background: white;
+  width: 97vw;
+  height: 35.4666666667vw;
+  margin-bottom: 13.3333333333vw;
+}
+.content_x a {
+  margin: auto;
+  display: block;
+  width: 89vw;
+  display: flex;
+}
+.content_x a span {
+  margin-right: 1.3333333333vw;
+  font-size: 5.6vw;
+}
+.content_x a h3 {
+  line-height: 10.6666666667vw;
+  font-size: 3.7333333333vw;
+  margin-left: 85.3333333333vw;
+  position: relative;
+}
+.content_x a p {
+  position: absolute;
+  width: 34.6666666667vw;
+  height: 10.6666666667vw;
+  opacity: 1;
+  color: #333333;
+  font-size: 4.2666666667vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+  margin-left: 2.6666666667vw;
+  line-height: 10.6666666667vw;
+}
+.content_x a:nth-of-type(1) {
+  border-bottom: 0.2666666667vw solid #e9ecf0;
+}
+.content_x a:nth-of-type(2) {
+  border-bottom: 0.2666666667vw solid #e9ecf0;
+}
+
+/*# sourceMappingURL=visterPersonalCenter.css.map */

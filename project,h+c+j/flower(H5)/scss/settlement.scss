@@ -1,0 +1,305 @@
+@import './global.scss';
+body {
+    background-color: #f7f7f7
+}
+
+// 头部
+.header {
+    // width: getvw(375);
+    height: getvw(42);
+    opacity: 1;
+    // border-bottom: getvw(1) solid #e9ecf0ff;
+    background: #ffffffff;
+    p {
+        height: getvw(40);
+        // opacity: 1;
+        color: #555555ff;
+        font-size: getvw(16);
+        font-weight: 500;
+        font-family: "PingFang SC";
+        // text-align: left;
+        line-height: getvw(42);
+        text-align: center;
+    }
+}
+
+// 信息
+.information {
+    margin: auto;
+    width: getvw(355);
+    height: getvw(239);
+    border-radius: getvw(5);
+    opacity: 1;
+    background-color: #ffffffff;
+    .hang {
+        width: getvw(300);
+        height: getvw(52);
+        opacity: 1;
+        border-bottom: getvw(1) solid #f7f9faff;
+        margin-top: getvw(10);
+        // margin: auto;
+        display: flex;
+        justify-content: space-between;
+        // background-color: pink;
+        margin-left: getvw(26);
+        p {
+            opacity: 1;
+            color: #000000ff;
+            font-size: getvw(15);
+            font-weight: 400;
+            font-family: "PingFang SC";
+            text-align: left;
+            line-height: getvw(52);
+        }
+    }
+    // img
+    img {
+        position: relative;
+        bottom: getvw(5);
+    }
+}
+
+// 订购人信息
+.people {
+    margin: auto;
+    width: getvw(355);
+    height: getvw(41);
+    border-radius: getvw(5);
+    opacity: 1;
+    background-color: #ffffffff;
+    .hang {
+        width: getvw(300);
+        height: getvw(41);
+        opacity: 1;
+        border-bottom: getvw(1) solid #f7f9faff;
+        margin-top: getvw(10);
+        // margin: auto;
+        display: flex;
+        justify-content: space-between;
+        // background-color: pink;
+        margin-left: getvw(26);
+        p {
+            opacity: 1;
+            color: #000000ff;
+            font-size: getvw(15);
+            font-weight: 400;
+            font-family: "PingFang SC";
+            text-align: left;
+            line-height: getvw(41);
+        }
+    }
+}
+
+// 贺卡留言-买家留言
+.leave_word {
+    margin-top: getvw(10);
+    width: getvw(355);
+    height: getvw(270);
+    border-radius: getvw(5);
+    opacity: 1;
+    background-color: #ffffffff;
+    margin: auto;
+    p {
+        margin-left: getvw(26);
+        opacity: 1;
+        color: #000000ff;
+        font-size: getvw(15);
+        font-weight: 400;
+        font-family: "PingFang SC";
+        text-align: left;
+        line-height: getvw(41);
+    }
+    textarea {
+        margin-left: getvw(26);
+        resize: none;
+        width: getvw(300);
+        height: getvw(80);
+    }
+}
+
+// 花
+.hua {
+    width: getvw(355);
+    height: getvw(116);
+    border-radius: getvw(5);
+    opacity: 1;
+    background: #ffffffff;
+    margin: auto;
+    margin-top: getvw(10);
+    display: flex;
+    img {
+        width: getvw(65);
+        height: getvw(65);
+        // display: block;
+        margin-left: getvw(10);
+        // margin-top: getvw(25);
+        padding-top: getvw(25);
+    }
+    p {
+        opacity: 1;
+        color: #000000ff;
+        font-size: getvw(14);
+        font-weight: 400;
+        font-family: "PingFang SC";
+        line-height: getvw(20);
+    }
+    .life {
+        margin-left: getvw(10);
+        margin-top: getvw(25);
+    }
+    span {
+        opacity: 1;
+        color: #000000ff;
+        font-size: getvw(14);
+        font-weight: 700;
+        font-family: "Helvetica Neue";
+        margin-left: getvw(160);
+        margin-top: getvw(36.5);
+    }
+}
+
+// 支付方式
+.pay {
+    width: getvw(355);
+    height: getvw(105);
+    border-radius: getvw(5);
+    opacity: 1;
+    background: #ffffffff;
+    margin: auto;
+    margin-top: getvw(10);
+    a {
+        &:nth-of-type(2) {
+            p {
+                span {
+                    color: #19a5ea;
+                    font-size: getvw(20);
+                }
+            }
+        }
+    }
+    p {
+        span {
+            &:first-child {
+                color: #5ab116;
+                font-size: getvw(20);
+                margin-right: getvw(5);
+            }
+        }
+        i {
+            margin-left: getvw(249);
+            color: #ff744d;
+            font-size: getvw(16);
+        }
+        opacity: 1;
+        color: #000000ff;
+        font-size: getvw(14);
+        font-weight: 400;
+        font-family: "PingFang SC";
+        text-align: left;
+        height: getvw(35);
+        line-height: getvw(35);
+        border-top: getvw(1) solid #f7f9faff;
+        margin-left: getvw(10);
+    }
+}
+
+// 发票
+.invoice {
+    width: getvw(355);
+    height: getvw(41);
+    border-radius: getvw(5);
+    opacity: 1;
+    background: #ffffffff;
+    margin: auto;
+    margin-top: getvw(10);
+    display: flex;
+    p {
+        line-height: getvw(41);
+        opacity: 1;
+        color: #000000ff;
+        font-size: getvw(14);
+        font-weight: 400;
+        font-family: "Helvetica Neue";
+        text-align: left;
+        margin-left: getvw(10);
+    }
+    a {
+        p {
+            margin-left: getvw(260);
+        }
+    }
+}
+
+// 总共--总计
+.bottom {
+    width: getvw(355);
+    height: getvw(110);
+    border-radius: getvw(5);
+    opacity: 1;
+    background: #ffffffff;
+    margin: auto;
+    margin-top: getvw(10);
+    .box {
+        width: getvw(335);
+        height: getvw(70);
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        // margin-top: getvw(12);
+        padding-top: getvw(12);
+        p {
+            opacity: 1;
+            color: #000000ff;
+            font-size: getvw(14);
+            width: getvw(166);
+            height: getvw(17);
+            font-weight: 400;
+            font-family: "Helvetica Neue";
+            text-align: left;
+        }
+    }
+}
+
+// 提交订单
+.submit {
+    width: getvw(375);
+    height: getvw(30);
+    display: flex;
+    // position: fixed;
+    .life {
+        width: getvw(225);
+        height: getvw(50);
+        opacity: 1;
+        background: #ffffffff;
+        position: fixed;
+        bottom: 0;
+        // left: 0;
+        p {
+            opacity: 1;
+            color: #884e22ff;
+            font-size: getvw(14);
+            font-weight: 400;
+            font-family: "Helvetica Neue";
+            text-align: center;
+            line-height: getvw(50);
+        }
+    }
+    .right {
+        width: getvw(150);
+        height: getvw(50);
+        opacity: 1;
+        background: #884e22ff;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        p {
+            opacity: 1;
+            color: #ffffffff;
+            font-size: getvw(14);
+            font-weight: 400;
+            font-family: "PingFang SC";
+            text-align: center;
+            line-height: getvw(50);
+        }
+    }
+}

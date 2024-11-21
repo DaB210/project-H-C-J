@@ -1,0 +1,275 @@
+@charset "utf-8";
+@import url(../css/_reset.css);
+
+@function getvw($w) {
+    @return calc($w/1440) * 100+vw;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+// body {
+//     background-color: pink;
+// }
+
+// 白颜色字，头部head
+.colorActive {
+    background-color: #fff;
+    color: #000;
+
+    p {
+        color: #000;
+    }
+
+}
+
+.top {
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    // border-bottom: 1px solid #efefef;
+
+
+
+    .head {
+        // width: 1440px;
+        width: getvw(1440);
+        // width: 100%;
+        // height: 80px;
+        height: getvw(80);
+        // background-color: rgb(181, 181, 238);
+        // background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        margin: auto;
+
+
+
+        .logo {
+            // margin-left: 75px;
+            margin-left: getvw(75);
+
+            img {
+                // width: 176.31px;
+                // height: 39.54px;
+                width: getvw(176.31);
+                height: getvw((39.54));
+            }
+        }
+
+        .navbar a:hover p {
+            color: #1677FF;
+        }
+
+        .login a:hover p {
+            color: #1677FF;
+        }
+
+        .navbar {
+            //margin-left: 310px;
+            //width: 660px;
+            //height: 80px;
+            margin-left: getvw(290);
+            width: getvw(660);
+            height: getvw(80);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+
+            .at {
+                color: #1677FF;
+            }
+
+            p {
+
+                opacity: 1;
+                color: #ffffff;
+                //font-size: 16px;
+                //font-weight: 600;
+                font-size: getvw(16);
+                font-weight: getvw(600);
+                font-family: "PingFang SC";
+                text-align: left;
+                // line-height: 25.14px;
+                line-height: getvw(25.14);
+                font-weight: bold;
+            }
+        }
+
+        .login {
+            display: flex;
+            align-items: center;
+
+            p {
+                font-weight: bold;
+
+                opacity: 1;
+                color: #ffffff;
+                //font-size: 14px;
+                // font-weight: 400;
+                font-size: getvw(14);
+                font-weight: getvw(400);
+                font-family: "PingFang SC";
+                text-align: left;
+                // line-height: 22px;
+                //margin-left: 90px;
+                line-height: getvw(22);
+                margin-left: getvw(50);
+            }
+
+            img {
+                //margin-left: 24px;
+                width: getvw(26);
+                height: getvw(26);
+                margin-left: getvw(24);
+            }
+        }
+
+    }
+
+}
+
+//底部  bottom
+.bottom {
+    // width: 1440px;
+    // height: 253px;
+    background-color: #1C2533;
+    margin: auto;
+    height: getvw(253);
+
+    .bot_content {
+        // width: 1180px;
+        //height: 187px;
+        width: getvw(1180);
+        height: getvw(187);
+        border-bottom: 1px solid #ffffff1a;
+        margin: auto;
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+
+        .box {
+            //width: 442.5px;
+            //  height: 90.92px;
+            width: getvw(442.5);
+            height: getvw(90.92);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            p:nth-child(1) {
+
+                // height: 22px;
+                height: getvw(22);
+                opacity: 1;
+                color: #ffffff;
+                // font-size: 16px;
+                // font-weight: 500;
+                font-size: getvw(16);
+                font-weight: getvw(500);
+                font-family: "PingFang SC";
+                text-align: left;
+                // line-height: 22px;
+                line-height: getvw(22);
+            }
+
+            p {
+
+                //height: 18px;
+                height: getvw(18);
+                opacity: 1;
+                color: #ffffff99;
+                // font-size: 12px;
+                // font-weight: 300;
+                font-size: getvw(12);
+                font-weight: getvw(300);
+                font-family: "PingFang SC";
+                text-align: left;
+                //line-height: 18px;
+                line-height: getvw(18);
+            }
+
+
+        }
+
+        .hangQR {
+            img {
+                // width: 32px;
+                // height: 32px;
+                // margin-right: 18px;
+                width: getvw(32);
+                height: getvw(32);
+                margin-right: getvw(18);
+                // position: relative;
+                position: static;
+            }
+
+
+        }
+    }
+
+    // 底部
+    .foot {
+        display: flex;
+        // height: 66px;
+        align-items: center;
+        justify-content: center;
+        height: getvw(66);
+
+        p {
+            // margin-left: 6px;
+            //   height: 18px;
+            margin-left: getvw(6);
+            height: getvw(18);
+            opacity: 1;
+            color: #ffffff99;
+            //font-size: 12px;
+            //font-weight: 300;
+            font-size: getvw(12);
+            font-weight: getvw(300);
+            font-family: "PingFang SC";
+            text-align: center;
+            // line-height: 18px;
+            line-height: getvw(18);
+        }
+    }
+}
+
+
+.hangQR_up {
+    img {
+
+        position: absolute;
+        overflow: hidden;
+        display: none;
+        width: getvw(128);
+        height: getvw(128);
+        left: getvw(860);
+        // bottom: getvw(-4985);
+        // top: 90%;
+        margin-top: getvw(-194);
+
+        &:nth-child(2) {
+            left: getvw(910);
+        }
+
+        &:nth-child(3) {
+            left: getvw(970);
+        }
+
+        &:nth-child(4) {
+            left: getvw(1020);
+        }
+
+    }
+
+
+}

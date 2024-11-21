@@ -1,0 +1,59 @@
+@import './reset.scss';
+
+@function getvw($w) {
+    @return calc($w / 375) * 100+vw;
+}
+
+@function getvm($w) {
+    @return calc($w / 375) * 100+vmin;
+}
+
+
+/* 禁用长按页面时弹出的菜单 */
+
+img,
+a {
+    -webkit-touchu-callout: none;
+}
+
+a {
+    /* 清除点击选中高亮 */
+    -webkit-tap-highlight-color: transparent;
+}
+
+nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: getvw(5) getvw(50) 0;
+    background-color: #F6F6F6;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        li {
+            a {
+                color: #333333;
+                text-align: center;
+
+                i {
+                    font-size: getvm(25) !important;
+                }
+
+                p {
+                    font-size: getvm(12);
+                    line-height: getvw(15);
+                }
+            }
+        }
+
+        .current {
+            a {
+                color: #884E22;
+            }
+        }
+    }
+}

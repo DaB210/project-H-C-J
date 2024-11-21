@@ -1,0 +1,111 @@
+@import './global.scss';
+
+// body {
+//     background-color: #eaebef;
+// }
+
+// 头部
+// .header {
+//     // width: getvw(375);
+//     height: getvw(55);
+//     opacity: 1;
+//     background: #ffffffff;
+//     display: flex;
+
+//     p {
+//         // opacity: 1;
+//         color: #555555ff;
+//         font-size: getvw(16);
+//         font-weight: 500;
+//         font-family: "PingFang SC";
+//         // text-align: left;
+//         line-height: getvw(55);
+//         margin-left: getvw(133);
+//     }
+
+//     a {
+//         h2 {
+//             // margin-top: getvw(14);
+//             line-height: getvw(55);
+//             margin-left: getvw(10);
+//             font-size: getvw(29);
+//             opacity: 1;
+//             color: #555555ff;
+//         }
+//     }
+// }
+.header {
+    // width: getvw(375);
+    height: getvw(55);
+    opacity: 1;
+    border-bottom: getvw(1) solid #e9ecf0ff;
+    background: #ffffffff;
+    display: flex;
+    // align-items: center;
+
+    span {
+        font-size: getvw(20);
+        line-height: getvw(55);
+        margin-left: getvw(10);
+        position: relative;
+    }
+
+    a {
+        color: #555555;
+
+        h3 {
+            font-size: getvw(16);
+            line-height: getvw(55);
+            margin-left: getvw(310);
+        }
+    }
+
+    p {
+        position: absolute;
+        text-align: center;
+        margin-left: getvw(168);
+        // text-align: center;
+        // position: absolute;
+        height: getvw(40);
+        // opacity: 1;
+        color: #555555ff;
+        font-size: getvw(16);
+        font-weight: 500;
+        font-family: "PingFang SC";
+        // text-align: left;
+        line-height: getvw(55);
+        text-align: center;
+    }
+}
+
+.img {
+    border-top: getvw(8) solid #eaebef;
+    width: getvw(375);
+    // height: getvw(300);
+    background-color: #ffffffff;
+    position: absolute;
+    // margin-top: getvw(20);
+
+    img {
+        margin: auto;
+        width: 50%;
+
+        display: block;
+        position: relative;
+        margin-top: getvw(30);
+    }
+
+    p {
+
+
+        opacity: 1;
+        color: #ff734cff;
+
+        font-size: getvw(14);
+        font-weight: 400;
+        font-family: "PingFang SC";
+        text-align: center;
+        margin-top: getvw(10);
+
+    }
+}

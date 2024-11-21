@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="25px" viewBox="0 0 16 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>路径</title>
+    <g id="招聘网站2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="招聘首页PC-设计稿" transform="translate(-1436.000000, -6557.000000)" stroke="#FFFFFF" stroke-width="4">
+            <g id="编组-9" transform="translate(416.000000, 6184.000000)">
+                <g id="编组-5" transform="translate(0.000000, 121.000000)">
+                    <polyline id="路径" transform="translate(1032.606602, 264.606602) scale(-1, 1) rotate(-45.000000) translate(-1032.606602, -264.606602) " points="1038.87703 257.106602 1040.1066 272.106602 1025.1066 270.877026"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  width: 47rem;
+  margin: auto;
+}
+
+.top {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  text-align: center;
+}
+.top p {
+  font-size: 2rem;
+  color: #000000;
+  line-height: 4rem;
+}
+.top p:first-child {
+  width: 8rem;
+  height: 4rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  border: solid 0.2rem #ff9344;
+  font-size: 2rem;
+  color: #000000;
+  text-align: center;
+  line-height: 4rem;
+}
+.top a {
+  color: #000000;
+}
+.top .right select {
+  appearance: none;
+  background: url(../img/03img/select_arrow.png) no-repeat right center;
+  background-size: 2rem 2rem;
+  width: 10rem;
+  height: 4rem;
+  background-color: #ffffff;
+  border: 1px solid #ea990e;
+  font-size: 2rem;
+  color: #000000;
+  padding: 0 1rem;
+}
+
+.search {
+  margin-top: 2rem;
+}
+.search .search_top {
+  margin: auto;
+  width: 17rem;
+  height: 3rem;
+  border-radius: 5rem;
+  background-color: #ffffff;
+  border: solid 0.2rem #ff9344;
+  display: flex;
+  justify-content: space-evenly;
+}
+.search .search_top p {
+  width: 11rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  letter-spacing: 0rem;
+  color: #777777;
+}
+.search .search_top img {
+  margin-top: 0.5rem;
+  display: block;
+  width: 2rem;
+  height: 2rem;
+}
+.search span {
+  display: block;
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: 0rem;
+  color: #000000;
+  text-align: center;
+  margin-top: 2rem;
+}
+.search .search_bottom {
+  margin: auto;
+  width: 34rem;
+  height: 9rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0 7rem;
+}
+.search .search_bottom .box {
+  width: 8rem;
+  height: 4rem;
+  background-color: #dcdcdc;
+}
+.search .search_bottom .box a {
+  height: 1rem;
+  font-size: 1rem;
+  line-height: 4rem;
+  color: #898989;
+  text-align: center;
+}
+
+.title {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+.title img {
+  height: 3rem;
+  margin-left: 2rem;
+}
+.title a img {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1rem;
+  line-height: 3rem;
+}
+.title p {
+  width: 8rem;
+  font-size: 2rem;
+  color: #000000;
+  margin-left: 2rem;
+}
+.title span {
+  width: 4rem;
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: 0rem;
+  color: #000000;
+  margin-left: 22rem;
+}
+
+.content_hot {
+  width: 47rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.content_hot .life {
+  margin-left: 1rem;
+}
+.content_hot .life img {
+  width: 18rem;
+  height: 22rem;
+}
+.content_hot .right {
+  width: 26rem;
+  margin-left: 1rem;
+}
+.content_hot .right .right_s img {
+  width: 26rem;
+  height: 9rem;
+}
+.content_hot .right .right_x {
+  margin-top: 1rem;
+}
+.content_hot .right .right_x a img {
+  width: 12rem;
+  height: 12rem;
+}
+.content_hot .right .right_x a:last-child img {
+  width: 13rem;
+  height: 12rem;
+  margin-left: 0.5rem;
+}
+
+.content_re {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.content_re a img {
+  width: 13rem;
+  height: 13rem;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  height: 7rem;
+  padding: 0 3rem;
+  margin-bottom: 1rem;
+}
+.foot img {
+  height: 4rem;
+}
+.foot p {
+  text-align: center;
+  font-size: 2rem;
+  color: #000000;
+}
+
+/*# sourceMappingURL=03app.css.map */

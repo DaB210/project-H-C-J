@@ -1,0 +1,109 @@
+@import './global.scss';
+@function getvw($w) {
+    @return calc($w / 375) * 100+vw;
+}
+
+@function getvm($w) {
+    @return calc($w / 375) * 100+vmin;
+}
+
+body {
+    background-color: #E9ECF0;
+}
+
+header {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    .classTitle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 0 getvw(20) 0 getvw(10);
+        i {
+            font-size: getvw(15) !important;
+            color: #666;
+            font-weight: 600;
+        }
+        .title {
+            padding: getvw(15) 0;
+            font-size: getvm(16);
+            font-weight: 500;
+        }
+    }
+    .top {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        li {
+            text-align: center;
+            font-size: getvm(14);
+            padding: getvw(13) 0;
+            &:nth-last-of-type(2) {
+                i {
+                    font-size: getvw(8.5);
+                }
+            }
+            &:last-of-type {
+                color: #555555;
+                i {
+                    font-size: getvw(15);
+                }
+            }
+            &:hover {
+                color: #884E22;
+            }
+        }
+        .current {
+            color: #884E22;
+        }
+    }
+}
+
+main {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: getvw(90);
+    padding: getvw(8);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: getvw(50);
+    .shopItem {
+        margin-bottom: getvw(7);
+        background-color: #ffffff;
+        border-bottom-left-radius: getvw(5);
+        border-bottom-right-radius: getvw(5);
+        .shopImg {
+            width: getvw(176);
+        }
+        .shopTitle {
+            margin: getvw(6) 0 getvw(10);
+            padding-left: getvw(5);
+            h2 {
+                font-size: getvm(14);
+                font-weight: 400;
+                color: #666666;
+            }
+        }
+        .shopInfo {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 getvw(5) getvw(10);
+            p {
+                &:first-child {
+                    font-size: getvm(14);
+                    font-weight: 600;
+                    color: #FF4433;
+                }
+                &:last-child {
+                    font-size: getvm(12);
+                    font-weight: 400;
+                    color: #999999;
+                }
+            }
+        }
+    }
+}

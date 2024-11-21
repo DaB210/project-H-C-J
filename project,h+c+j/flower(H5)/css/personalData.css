@@ -1,0 +1,290 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/* 禁用长按页面时弹出的菜单 */
+img,
+a {
+  -webkit-touchu-callout: none;
+}
+
+a {
+  /* 清除点击选中高亮 */
+  -webkit-tap-highlight-color: transparent;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.3333333333vw 13.3333333333vw 0;
+  background-color: #F6F6F6;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li a {
+  color: #333333;
+  text-align: center;
+}
+nav ul li a i {
+  font-size: 6.6666666667vmin !important;
+}
+nav ul li a p {
+  font-size: 3.2vmin;
+  line-height: 4vw;
+}
+nav ul .current a {
+  color: #884E22;
+}
+
+.header {
+  height: 13.6vw;
+  opacity: 1;
+  border-bottom: 0.2666666667vw solid #e9ecf0;
+  background: white;
+  display: flex;
+}
+.header p {
+  margin-left: 37.8vw;
+  height: 10.6666666667vw;
+  color: #555555;
+  font-size: 4.2666666667vw;
+  font-weight: 500;
+  font-family: "PingFang SC";
+  line-height: 13.6vw;
+}
+.header p:last-child {
+  margin-left: 31.6666666667vw;
+  font-size: 3.7333333333vw;
+}
+
+.head_portrait {
+  height: 35.5786666667vw;
+  opacity: 1;
+  border-bottom: 0.2666666667vw solid #e9ecf0;
+  background: white;
+}
+.head_portrait .img {
+  width: 17.5333333333vw;
+  height: 17.5333333333vw;
+  border-radius: 8.768vw;
+  opacity: 1;
+  background-image: url(../img/personalData/head\ portrait.png);
+  background-size: 17.5333333333vw 17.5333333333vw;
+  border: 0.2666666667vw solid #394d3f;
+  margin: auto;
+  margin-top: 5.3333333333vw;
+}
+.head_portrait p {
+  opacity: 1;
+  color: #555555;
+  font-size: 3.7333333333vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+  text-align: center;
+  margin-top: 0.8vw;
+}
+
+.content {
+  /* 在Chrome浏览器下 */
+  border-bottom: 0.2666666667vw solid #e9ecf0;
+  height: 16.2666666667vw;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+.content input::-webkit-outer-spin-button,
+.content input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.content p {
+  opacity: 1;
+  color: #555555;
+  font-size: 3.7333333333vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+  margin-left: 4vw;
+  line-height: 16.2666666667vw;
+}
+.content input {
+  width: 39.2vw;
+  height: 5.0666666667vw;
+  margin-left: 12vw;
+  margin-top: 5.6vw;
+  opacity: 1;
+  border: none;
+}
+
+.content_sex {
+  border-bottom: 0.2666666667vw solid #e9ecf0;
+  height: 16.2666666667vw;
+  width: 100vw;
+  display: flex;
+}
+.content_sex p {
+  opacity: 1;
+  color: #555555;
+  font-size: 3.7333333333vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+  margin-left: 4vw;
+  line-height: 16.2666666667vw;
+}
+.content_sex .sex {
+  width: 39.2vw;
+  height: 5.0666666667vw;
+  margin-left: 12vw;
+  margin-top: 5.6vw;
+  opacity: 1;
+  border: none;
+}
+.content_sex .sex input:last-child {
+  margin-left: 9.3333333333vw;
+}
+
+/*# sourceMappingURL=personalData.css.map */

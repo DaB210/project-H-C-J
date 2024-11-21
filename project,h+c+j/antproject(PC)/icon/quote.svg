@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="44px" viewBox="0 0 54 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>形状结合备份</title>
+    <defs>
+        <linearGradient x1="100%" y1="16.8038409%" x2="0%" y2="83.1961591%" id="linearGradient-1">
+            <stop stop-color="#1677FF" offset="0%"></stop>
+            <stop stop-color="#00D3FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="招聘网站2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="招聘首页PC-设计稿" transform="translate(-448.000000, -5460.000000)" fill="url(#linearGradient-1)">
+            <g id="编组-23备份" transform="translate(416.000000, 5260.000000)">
+                <g id="编组-10备份" transform="translate(0.000000, 200.000000)">
+                    <path d="M48.0985827,0 L58,4.23953585 L45.9230985,24.8455035 L48.0985827,26.983506 L54.0722706,26.983506 L51.0384507,44 L32,44 L34.3469688,24.8455035 L48.0985827,0 Z M76.0985827,0 L86,4.23953585 L73.9230985,24.8455035 L76.0985827,26.983506 L82.0722706,26.983506 L79.0384507,44 L60,44 L62.3469688,24.8455035 L76.0985827,0 Z" id="形状结合备份"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

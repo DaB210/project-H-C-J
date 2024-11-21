@@ -1,0 +1,457 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/* 禁用长按页面时弹出的菜单 */
+img,
+a {
+  -webkit-touchu-callout: none;
+}
+
+a {
+  /* 清除点击选中高亮 */
+  -webkit-tap-highlight-color: transparent;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.3333333333vw 13.3333333333vw 0;
+  background-color: #F6F6F6;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li a {
+  color: #333333;
+  text-align: center;
+}
+nav ul li a i {
+  font-size: 6.6666666667vmin !important;
+}
+nav ul li a p {
+  font-size: 3.2vmin;
+  line-height: 4vw;
+}
+nav ul .current a {
+  color: #884E22;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+.header {
+  height: 11.2vw;
+  opacity: 1;
+  background: white;
+}
+.header p {
+  height: 10.6666666667vw;
+  color: #555555;
+  font-size: 4.2666666667vw;
+  font-weight: 500;
+  font-family: "PingFang SC";
+  line-height: 11.2vw;
+  text-align: center;
+}
+
+.information {
+  margin: auto;
+  width: 94.6666666667vw;
+  height: 63.7333333333vw;
+  border-radius: 1.3333333333vw;
+  opacity: 1;
+  background-color: white;
+}
+.information .hang {
+  width: 80vw;
+  height: 13.8666666667vw;
+  opacity: 1;
+  border-bottom: 0.2666666667vw solid #f7f9fa;
+  margin-top: 2.6666666667vw;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 6.9333333333vw;
+}
+.information .hang p {
+  opacity: 1;
+  color: black;
+  font-size: 4vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+  text-align: left;
+  line-height: 13.8666666667vw;
+}
+.information img {
+  position: relative;
+  bottom: 1.3333333333vw;
+}
+
+.people {
+  margin: auto;
+  width: 94.6666666667vw;
+  height: 10.9333333333vw;
+  border-radius: 1.3333333333vw;
+  opacity: 1;
+  background-color: white;
+}
+.people .hang {
+  width: 80vw;
+  height: 10.9333333333vw;
+  opacity: 1;
+  border-bottom: 0.2666666667vw solid #f7f9fa;
+  margin-top: 2.6666666667vw;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 6.9333333333vw;
+}
+.people .hang p {
+  opacity: 1;
+  color: black;
+  font-size: 4vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+  text-align: left;
+  line-height: 10.9333333333vw;
+}
+
+.leave_word {
+  margin-top: 2.6666666667vw;
+  width: 94.6666666667vw;
+  height: 72vw;
+  border-radius: 1.3333333333vw;
+  opacity: 1;
+  background-color: white;
+  margin: auto;
+}
+.leave_word p {
+  margin-left: 6.9333333333vw;
+  opacity: 1;
+  color: black;
+  font-size: 4vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+  text-align: left;
+  line-height: 10.9333333333vw;
+}
+.leave_word textarea {
+  margin-left: 6.9333333333vw;
+  resize: none;
+  width: 80vw;
+  height: 21.3333333333vw;
+}
+
+.hua {
+  width: 94.6666666667vw;
+  height: 30.9333333333vw;
+  border-radius: 1.3333333333vw;
+  opacity: 1;
+  background: white;
+  margin: auto;
+  margin-top: 2.6666666667vw;
+  display: flex;
+}
+.hua img {
+  width: 17.3333333333vw;
+  height: 17.3333333333vw;
+  margin-left: 2.6666666667vw;
+  padding-top: 6.6666666667vw;
+}
+.hua p {
+  opacity: 1;
+  color: black;
+  font-size: 3.7333333333vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+  line-height: 5.3333333333vw;
+}
+.hua .life {
+  margin-left: 2.6666666667vw;
+  margin-top: 6.6666666667vw;
+}
+.hua span {
+  opacity: 1;
+  color: black;
+  font-size: 3.7333333333vw;
+  font-weight: 700;
+  font-family: "Helvetica Neue";
+  margin-left: 42.6666666667vw;
+  margin-top: 9.7333333333vw;
+}
+
+.pay {
+  width: 94.6666666667vw;
+  height: 28vw;
+  border-radius: 1.3333333333vw;
+  opacity: 1;
+  background: white;
+  margin: auto;
+  margin-top: 2.6666666667vw;
+}
+.pay a:nth-of-type(2) p span {
+  color: #19a5ea;
+  font-size: 5.3333333333vw;
+}
+.pay p {
+  opacity: 1;
+  color: black;
+  font-size: 3.7333333333vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+  text-align: left;
+  height: 9.3333333333vw;
+  line-height: 9.3333333333vw;
+  border-top: 0.2666666667vw solid #f7f9fa;
+  margin-left: 2.6666666667vw;
+}
+.pay p span:first-child {
+  color: #5ab116;
+  font-size: 5.3333333333vw;
+  margin-right: 1.3333333333vw;
+}
+.pay p i {
+  margin-left: 66.4vw;
+  color: #ff744d;
+  font-size: 4.2666666667vw;
+}
+
+.invoice {
+  width: 94.6666666667vw;
+  height: 10.9333333333vw;
+  border-radius: 1.3333333333vw;
+  opacity: 1;
+  background: white;
+  margin: auto;
+  margin-top: 2.6666666667vw;
+  display: flex;
+}
+.invoice p {
+  line-height: 10.9333333333vw;
+  opacity: 1;
+  color: black;
+  font-size: 3.7333333333vw;
+  font-weight: 400;
+  font-family: "Helvetica Neue";
+  text-align: left;
+  margin-left: 2.6666666667vw;
+}
+.invoice a p {
+  margin-left: 69.3333333333vw;
+}
+
+.bottom {
+  width: 94.6666666667vw;
+  height: 29.3333333333vw;
+  border-radius: 1.3333333333vw;
+  opacity: 1;
+  background: white;
+  margin: auto;
+  margin-top: 2.6666666667vw;
+}
+.bottom .box {
+  width: 89.3333333333vw;
+  height: 18.6666666667vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 3.2vw;
+}
+.bottom .box p {
+  opacity: 1;
+  color: black;
+  font-size: 3.7333333333vw;
+  width: 44.2666666667vw;
+  height: 4.5333333333vw;
+  font-weight: 400;
+  font-family: "Helvetica Neue";
+  text-align: left;
+}
+
+.submit {
+  width: 100vw;
+  height: 8vw;
+  display: flex;
+}
+.submit .life {
+  width: 60vw;
+  height: 13.3333333333vw;
+  opacity: 1;
+  background: white;
+  position: fixed;
+  bottom: 0;
+}
+.submit .life p {
+  opacity: 1;
+  color: #884e22;
+  font-size: 3.7333333333vw;
+  font-weight: 400;
+  font-family: "Helvetica Neue";
+  text-align: center;
+  line-height: 13.3333333333vw;
+}
+.submit .right {
+  width: 40vw;
+  height: 13.3333333333vw;
+  opacity: 1;
+  background: #884e22;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.submit .right p {
+  opacity: 1;
+  color: white;
+  font-size: 3.7333333333vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+  text-align: center;
+  line-height: 13.3333333333vw;
+}
+
+/*# sourceMappingURL=settlement.css.map */

@@ -1,0 +1,514 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/* 禁用长按页面时弹出的菜单 */
+img,
+a {
+  -webkit-touchu-callout: none;
+}
+
+a {
+  /* 清除点击选中高亮 */
+  -webkit-tap-highlight-color: transparent;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.3333333333vw 13.3333333333vw 0;
+  background-color: #F6F6F6;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li a {
+  color: #333333;
+  text-align: center;
+}
+nav ul li a i {
+  font-size: 6.6666666667vmin !important;
+}
+nav ul li a p {
+  font-size: 3.2vmin;
+  line-height: 4vw;
+}
+nav ul .current a {
+  color: #884E22;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/* 禁用长按页面时弹出的菜单 */
+img,
+a {
+  -webkit-touchu-callout: none;
+}
+
+a {
+  /* 清除点击选中高亮 */
+  -webkit-tap-highlight-color: transparent;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.3333333333vw 13.3333333333vw 0;
+  background-color: #F6F6F6;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li a {
+  color: #333333;
+  text-align: center;
+}
+nav ul li a i {
+  font-size: 6.6666666667vmin !important;
+}
+nav ul li a p {
+  font-size: 3.2vmin;
+  line-height: 4vw;
+}
+nav ul .current a {
+  color: #884E22;
+}
+
+body {
+  background-color: #E9ECF0;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  background-color: #fff;
+  border-bottom: 0.2666666667vw solid #E4E4E4;
+}
+header i {
+  position: absolute;
+  left: 4vw;
+  top: 4vw;
+  font-size: 5.3333333333vmin !important;
+  color: #656565;
+  font-weight: bold;
+}
+header h2 {
+  font-size: 4.2666666667vmin;
+  color: #555555;
+  padding: 4.2666666667vw 0;
+}
+
+main {
+  width: 100%;
+  padding-top: 13.0666666667vmin;
+}
+main .buy {
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 4vw;
+}
+main .buy .content .shopBox {
+  display: flex;
+  padding: 4vw 0 5.3333333333vw;
+  border-bottom: 0.2666666667vw solid #CCCCCC;
+}
+main .buy .content .shopBox input {
+  align-self: center;
+  margin-left: 2.6666666667vw;
+}
+main .buy .content .shopBox .imgBox {
+  width: 35.4133333333vw;
+}
+main .buy .content .shopBox .shopInfo {
+  align-self: flex-end;
+  margin-left: 2.6666666667vw;
+}
+main .buy .content .shopBox .shopInfo h2 {
+  font-size: 4.2666666667vmin;
+  color: #333333;
+  margin-bottom: 3.2vw;
+}
+main .buy .content .shopBox .shopInfo p {
+  color: #555555;
+  font-size: 3.7333333333vmin;
+}
+main .buy .content .shopBox .shopInfo p:nth-last-of-type(n+1) {
+  margin-bottom: 2.1333333333vw;
+}
+main .buy .content .shopBox .shopInfo p:nth-of-type(2) span {
+  color: #999999;
+  text-decoration: line-through;
+}
+main .buy .content .shopBox .shopInfo p:nth-of-type(3) span {
+  color: #FF2222;
+}
+main .mayLike {
+  width: 100%;
+  background-color: #f6f6f6;
+  padding-bottom: 13.3333333333vw;
+}
+main .mayLike .title {
+  padding-top: 4vw;
+  padding-left: 4vw;
+  font-size: 4.6666666667vmin;
+  color: #555555;
+}
+main .mayLike .content {
+  margin-top: 1.0666666667vw;
+  padding: 4vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+main .mayLike .content .shopItem {
+  margin-bottom: 5.3333333333vw;
+  box-shadow: 0 0 1.3333333333vmin 0 #ccc;
+  background-color: #ffffff;
+}
+main .mayLike .content .shopItem .shopImg {
+  width: 44vw;
+}
+main .mayLike .content .shopItem .shopTitle {
+  margin: 1.6vw 0 2.6666666667vw;
+  padding-left: 1.3333333333vw;
+}
+main .mayLike .content .shopItem .shopTitle h2 {
+  font-size: 3.7333333333vmin;
+  font-weight: 400;
+  color: #666666;
+}
+main .mayLike .content .shopItem .shopInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.3333333333vw 1.3333333333vw;
+}
+main .mayLike .content .shopItem .shopInfo p:first-child {
+  font-size: 3.7333333333vmin;
+  font-weight: 600;
+  color: #FF4433;
+}
+main .mayLike .content .shopItem .shopInfo p:last-child {
+  font-size: 3.2vmin;
+  font-weight: 400;
+  color: #999999;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  height: 13.3333333333vw;
+  bottom: 0;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+footer p {
+  padding-left: 4vw;
+  font-size: 3.7333333333vmin;
+  color: #884E22;
+  line-height: 13.3333333333vw;
+}
+footer a {
+  width: 24vw;
+  height: 13.3333333333vw;
+  padding-left: 4vw;
+  line-height: 13.3333333333vw;
+  font-size: 3.7333333333vmin;
+  color: #ffffff;
+  background-color: #884E22;
+}
+
+/*# sourceMappingURL=shopCart.css.map */

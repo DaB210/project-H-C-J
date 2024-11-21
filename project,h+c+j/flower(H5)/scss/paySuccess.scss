@@ -1,0 +1,135 @@
+@import './_global.scss';
+
+// .header{
+//     p{
+//         // text-align: center;
+//         padding-top: getvw(11.5);
+//         // margin-left: getvw(155.5);
+//                 opacity: 1;
+//                 color: #555555ff;
+//                 font-size: getvw(16);
+//                 font-weight: 400;
+//                 font-family: "PingFang SC";
+//                 text-align: center;
+
+//     }
+// }
+
+.header {
+    // width: getvw(375);
+    height: getvw(51);
+    opacity: 1;
+    border-bottom: getvw(1) solid #e9ecf0ff;
+    background: #ffffffff;
+    display: flex;
+    // align-items: center;
+
+    span {
+        font-size: getvw(20);
+        line-height: getvw(51);
+        margin-left: getvw(10);
+        position: relative;
+    }
+
+    a {
+        color: #555555;
+
+        h3 {
+            font-size: getvw(16);
+            line-height: getvw(51);
+            margin-left: getvw(310);
+        }
+    }
+
+    p {
+        position: absolute;
+        text-align: center;
+        margin-left: getvw(155);
+        // text-align: center;
+        // position: absolute;
+        height: getvw(40);
+        // opacity: 1;
+        color: #555555ff;
+        font-size: getvw(16);
+        font-weight: 500;
+        font-family: "PingFang SC";
+        // text-align: left;
+        line-height: getvw(51);
+        text-align: center;
+    }
+}
+
+// 支付成功图
+.img {
+    margin-top: getvw(62);
+
+    img {
+        width: getvw(100);
+        height: getvw(100);
+        display: block;
+        margin: auto;
+        // width: getvw(100);
+        //     height: getvw(100);
+    }
+
+    p {
+        text-align: center;
+        margin-top: getvw(20.5);
+        opacity: 1;
+        color: #555555ff;
+        font-size: 22px;
+        font-size: getvw(22);
+        font-weight: 400;
+        font-family: "PingFang SC";
+    }
+}
+
+// 当前状态-支付时间-支付方式-交易编号
+.content {
+    margin-left: getvw(30);
+    margin-top: getvw(55);
+
+    opacity: 1;
+    color: #000000ff;
+    font-size: getvw(14);
+    font-weight: 400;
+    font-family: "PingFang SC";
+
+    p {
+        &:nth-child(n+2) {
+            margin-top: getvw(19.6);
+        }
+    }
+
+}
+
+// 返回首页
+.return {
+
+    margin: auto;
+    width: getvw(315);
+    height: getvw(45);
+    border-radius: getvw(10);
+    opacity: 1;
+    background-color: #62c27cff;
+
+    a {
+
+        // text-align: center;
+        p {
+
+            margin-top: getvw(60);
+            height: 25px;
+            opacity: 1;
+            color: #ffffffff;
+            // font-size: 18px;
+            font-size: getvw(18);
+            font-weight: 400;
+            font-family: "PingFang SC";
+
+            line-height: getvw(45);
+            text-align: center;
+
+        }
+    }
+}

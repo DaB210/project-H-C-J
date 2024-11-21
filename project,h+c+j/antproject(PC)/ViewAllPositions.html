@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>蚂蚁集团社会招聘</title>
+    <link rel="stylesheet" href="./utils/swiper.min.css" />
+    <link rel="stylesheet" href="./css/ViewAllPositions.css" />
+    <link rel="stylesheet icon" href="./icon/favicon.icon" />
+  </head>
+  <body>
+    <!-- 头部 -->
+    <div class="top">
+      <div class="head">
+        <div class="logo">
+          <a href="#"> <img src="./icon/logo_black.svg" alt="" /></a>
+        </div>
+        <div class="navbar">
+          <a href="./homepage.html"><p>主页</p></a>
+          <a href="./society.html"><p class="at">社会招聘</p></a>
+          <a href="./campus.html"><p>校园招聘</p></a>
+           <a href="./UnderstandingAnts.html"><p>了解蚂蚁</p></a>
+          <a href="./login.html"><p>个人中心</p></a>
+        </div>
+        <div class="login">
+          <a href="./login.html"><p>登录</p></a>
+          <a href="#"><img src="./icon/language.svg" alt="" /></a>
+        </div>
+      </div>
+    </div>
+    <!-- 轮播图 -->
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./image/ViewAllPositions_search01.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./image/ViewAllPositions_search02.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./image/ViewAllPositions_search03.jpg" alt="" />
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
+    <!-- 搜索框 -->
+    <div class="search_box">
+      <div class="box_up">
+        <input type="text" placeholder="输入职位关键词" />
+        <div class="search_but">
+          <a href="#"><p>搜索</p></a>
+        </div>
+      </div>
+      <div class="box_next">
+        <p>热门搜索:</p>
+        <a href="#"><span>技术</span></a>
+        <a href="#"><span>算法</span></a>
+        <a href="#"><span>区块链</span></a>
+        <a href="#"><span>产品</span></a>
+        <a href="#"><span>运营研究</span></a>
+      </div>
+    </div>
+
+     <!-- 选择框 -->
+  <div class="select_box">
+    <div class="lift">
+        <div class="title">
+            <p>标题</p><span class="clearBtn" >清除</span>
+        </div>
+        <div class="work">
+            <div class="hang"><p>工作地点</p><img src="./image/list_small.png" alt="" class="myImg" style="cursor: pointer;"></div>
+<div class="lift_box" >
+<label for="hz">
+  <input type="checkbox" id="hz" name="city" value="杭州" class="inp01">
+  <p>杭州</p>
+</label>
+<label for="bj">
+  <input type="checkbox" id="bj" name="city" value="北京" class="inp01">
+  <p>北京</p>
+</label>
+<label for="sh">
+  <input type="checkbox" id="sh" name="city" value="上海" class="inp01">
+  <p>上海</p>
+</label>
+<label for="gz">
+  <input type="checkbox" id="gz" name="city" value="广州" class="inp01">
+  <p>广州</p>
+</label>
+<label for="sz">
+  <input type="checkbox" id="sz" name="city" value="深圳" class="inp01">
+  <p>深圳</p>
+</label>
+<label for="cd">
+  <input type="checkbox" id="cd" name="city" value="成都" class="inp01">
+  <p>成都</p>
+</label>
+<label for="cq">
+  <input type="checkbox" id="cq" name="city" value="重庆" class="inp01">
+  <p>重庆</p>
+</label>
+<label for="nj">
+  <input type="checkbox" id="nj" name="city" value="南京" class="inp01">
+  <p>南京</p>
+</label>
+<label for="wh">
+  <input type="checkbox" id="wh" name="city" value="武汉" class="inp01">
+  <p>武汉</p>
+</label>
+<label for="hk">
+  <input type="checkbox" id="hk" name="city" value="中国香港" class="inp01">
+  <p>中国香港</p>
+</label>
+
+
+<!-- 其他城市复选框 -->
+</div>
+        </div>
+        <div class="add">
+  <img src="./image/list_add.png" alt="">
+  <p>更多</p>
+</div>
+        <div class="classes">
+            <div class="hang"><p>职位类别</p><img src="./image/list_small.png" alt="" class="list_small myImg02" style="cursor: pointer;"></div>
+           
+           <div class="right_box">
+           
+            <label for="jobCategory1">
+               <img src="./image/list_arrows_search..png" alt="">
+    <input type="checkbox" id="jobCategory1" name="jobCategory" value="技术类">
+    <p>技术类</p>
+  </label><br>
+  <label for="jobCategory2"><img src="./image/list_arrows_search..png" alt="">
+    <input type="checkbox" id="jobCategory2" name="jobCategory" value="研究类">
+    <p>研究类</p>
+  </label><br>
+  <label for="jobCategory3"><img src="./image/list_arrows_search..png" alt="">
+    <input type="checkbox" id="jobCategory3" name="jobCategory" value="产品类">
+    <p>产品类</p>
+  </label><br>
+  <label for="jobCategory4"><img src="./image/list_arrows_search..png" alt="">
+    <input type="checkbox" id="jobCategory4" name="jobCategory" value="运营类">
+    <p>运营类</p>
+  </label><br>
+  <label for="jobCategory5"><img src="./image/list_arrows_search..png" alt="">
+    <input type="checkbox" id="jobCategory5" name="jobCategory" value="设计类">
+    <p>设计类</p>
+  </label><br>
+  <label for="jobCategory6"><img src="./image/list_arrows_search..png" alt="">
+    <input type="checkbox" id="jobCategory6" name="jobCategory" value="数据类">
+    <p>数据类</p>
+  </label><br>
+  <label for="jobCategory7"><img src="./image/list_arrows_search..png" alt="">
+    <input type="checkbox" id="jobCategory7" name="jobCategory" value="市场拓展">
+    <p>市场拓展</p>
+  </label><br>
+  <label for="jobCategory8"><img src="./image/list_arrows_search..png" alt="">
+    <input type="checkbox" id="jobCategory8" name="jobCategory" value="销售类">
+    <p>销售类</p>
+  </label><br>
+  <label for="jobCategory9"><img src="./image/list_arrows_search..png" alt="">
+    <input type="checkbox" id="jobCategory9" name="jobCategory" value="综合类">
+    <p>综合类</p>
+  </label><br>
+  <label for="jobCategory10"><img src="./image/list_arrows_search..png" alt="">
+    <input type="checkbox" id="jobCategory10" name="jobCategory" value="客服类">
+    <p>客服类</p>
+  </label><br>
+  <label for="jobCategory11"><img src="./image/list_arrows_search..png" alt="">
+    <input type="checkbox" id="jobCategory11" name="jobCategory" value="金融类">
+    <p>金融类</p>
+  </label><br>
+  <!-- 添加更多的选项 -->
+           </div>
+            
+        </div>
+    </div>
+    <div class="right">
+      <div class="title">
+        <p>职位</p><div class="title_box"><span>3</span></div>
+      </div>
+      <div class="box">
+        <div class="content">
+<div class="hang_title">
+  <p>蚂蚁消金-前端高级专员/专家-重庆</p>
+  <span>2023-06-28</span><span>发布</span>
+</div>
+<div class="hang_cont">
+  <img src="./image/list_site.png" alt=""> <p>重庆</p> <span class="vert-bar">&#124;</span><img src="./image/list_bag.png" alt=""><p>前端</p>
+</div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="content">
+<div class="hang_title">
+  <p>蚂蚁集团-前端-支付宝事业线</p>
+  <span>2023-07-28</span><span>发布</span>
+</div>
+<div class="hang_cont">
+  <img src="./image/list_site.png" alt=""> <p>杭州</p> <span class="vert-bar">&#124;</span><img src="./image/list_bag.png" alt=""><p>前端</p>
+</div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="content">
+<div class="hang_title">
+  <p>蚂蚁集团-前端技术专家-OceanBase</p>
+  <span>2023-07-11</span><span>发布</span>
+</div>
+<div class="hang_cont">
+  <img src="./image/list_site.png" alt=""> <p>北京/杭州</p> <span class="vert-bar">&#124;</span><img src="./image/list_bag.png" alt=""><p>前端</p>
+</div>
+        </div>
+      </div>
+      <div class="but">
+       
+        <div class="lift_img">
+          <img src="./image/list_lift.png" alt="">
+        </div>
+        <div class="cont"><p>1</p></div>
+        <div class="right_img"><img src="./image/list_right.png" alt=""></div>
+      </div>
+    </div>
+  </div>
+    <!-- 底部 -->
+ <div class="bottom">
+      <div class="bot_content">
+        <div class="box">
+          <p>总部地址</p>
+          <p>中国杭州市西湖区</p>
+          <p>西溪路569号蚂蚁A空间</p>
+        </div>
+        <div class="box">
+          <p>招聘咨询</p>
+          <p>如需咨询招聘相关事宜</p>
+          <p>请拨打电话：0571-28280505</p>
+        </div>
+        <div class="box">
+          <p>关注我们</p>
+          <div class="hangQR">
+            <div class="image-container">
+            <img src="./icon/weixin.svg" alt="">
+            <img src="./icon/weibo.svg" alt="">
+            <img src="./icon/mai.svg" alt="">
+            <img src="./image/original.png" alt="">
+        </div>
+  
+          </div>
+                  <div class="hangQR_up">
+<img src="./image/weixin_QR.png" alt="">
+<img src="./image/weibo_QR.png" alt="">
+<img src="./image/mai_QR.png" alt="">
+<img src="./image/original_QR.png" alt="">
+</div>
+        </div>
+      </div>
+
+      <div class="foot">
+        <p>经营许可证编号：合字B2-20190048 &#124</p>
+        <p>ICP备案：浙B2-20100257-3  &#124</p>
+        <p>Copyright © 2023 蚂蚁科技集团股份有限公司  </p>
+      </div>
+
+    </div> 
+    <script src="./js/commonBottom.js"></script>
+    <script src="./utils/swiper.min.js"></script>
+    <script src="./js/ViewAllPositions.js"></script>
+  </body>
+</html>

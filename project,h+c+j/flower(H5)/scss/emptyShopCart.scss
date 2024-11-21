@@ -1,0 +1,107 @@
+@import './global.scss';
+body {
+    background-color: #E9ECF0;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: getvw(1) solid #E4E4E4;
+    i {
+        position: absolute;
+        left: getvw(15);
+        top: getvw(15);
+        font-size: getvm(20) !important;
+        color: #656565;
+        font-weight: bold;
+    }
+    h2 {
+        font-size: getvm(16);
+        color: #555555;
+        padding: getvw(16) 0;
+    }
+}
+
+main {
+    width: 100%;
+    padding-top: getvm(50);
+    .buy {
+        width: 100%;
+        background-color: #fff;
+        margin-bottom: getvw(15);
+        .content {
+            width: getvw(127.5);
+            margin: 0 auto 0;
+            text-align: center;
+            padding: getvw(50) 0;
+            p {
+                font-size: getvm(14);
+                color: #555555;
+                margin: getvw(12) 0;
+            }
+            a {
+                width: getvw(122);
+                padding: getvw(5) getvw(40);
+                color: #fff;
+                background-color: #884E22;
+                font-size: getvm(14);
+                font-weight: 600;
+            }
+        }
+    }
+    .mayLike {
+        width: 100%;
+        background-color: #f6f6f6;
+        padding-bottom: getvw(50);
+        .title {
+            padding-top: getvw(15);
+            padding-left: getvw(15);
+            font-size: getvm(17.5);
+            color: #555555;
+        }
+        .content {
+            margin-top: getvw(4);
+            padding: getvw(15);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .shopItem {
+                margin-bottom: getvw(20);
+                box-shadow: 0 0 getvm(5) 0 #ccc;
+                background-color: #ffffff;
+                .shopImg {
+                    width: getvw(165);
+                }
+                .shopTitle {
+                    margin: getvw(6) 0 getvw(10);
+                    padding-left: getvw(5);
+                    h2 {
+                        font-size: getvm(14);
+                        font-weight: 400;
+                        color: #666666;
+                    }
+                }
+                .shopInfo {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 0 getvw(5) getvw(5);
+                    p {
+                        &:first-child {
+                            font-size: getvm(14);
+                            font-weight: 600;
+                            color: #FF4433;
+                        }
+                        &:last-child {
+                            font-size: getvm(12);
+                            font-weight: 400;
+                            color: #999999;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

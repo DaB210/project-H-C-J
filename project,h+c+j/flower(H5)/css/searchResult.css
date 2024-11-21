@@ -1,0 +1,253 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/* 禁用长按页面时弹出的菜单 */
+img,
+a {
+  -webkit-touchu-callout: none;
+}
+
+a {
+  /* 清除点击选中高亮 */
+  -webkit-tap-highlight-color: transparent;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.3333333333vw 13.3333333333vw 0;
+  background-color: #F6F6F6;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li a {
+  color: #333333;
+  text-align: center;
+}
+nav ul li a i {
+  font-size: 6.6666666667vmin !important;
+}
+nav ul li a p {
+  font-size: 3.2vmin;
+  line-height: 4vw;
+}
+nav ul .current a {
+  color: #884E22;
+}
+
+body {
+  background-color: #E9ECF0;
+}
+
+header {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 5.3333333333vw 0 2.6666666667vw;
+}
+header i {
+  font-size: 4vw !important;
+  color: #666;
+  font-weight: 600;
+}
+header .title {
+  padding: 4vw 0;
+  font-size: 4.2666666667vmin;
+  font-weight: 500;
+}
+
+main {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 12vw;
+  padding: 4vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 13.3333333333vw;
+}
+main .shopItem {
+  margin-bottom: 4vw;
+  background-color: #ffffff;
+}
+main .shopItem .shopImg {
+  width: 44vw;
+}
+main .shopItem .shopTitle {
+  margin: 1.6vw 0 2.6666666667vw;
+  padding-left: 1.3333333333vw;
+}
+main .shopItem .shopTitle h2 {
+  font-size: 3.7333333333vmin;
+  font-weight: 400;
+  color: #666666;
+}
+main .shopItem .shopInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.3333333333vw 1.3333333333vw;
+}
+main .shopItem .shopInfo p:first-child {
+  font-size: 3.7333333333vmin;
+  font-weight: 600;
+  color: #FF4433;
+}
+main .shopItem .shopInfo p:last-child {
+  font-size: 3.2vmin;
+  font-weight: 400;
+  color: #999999;
+}
+
+/*# sourceMappingURL=searchResult.css.map */

@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.top {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  text-align: center;
+}
+.top p {
+  font-size: 2rem;
+  color: #000000;
+  line-height: 4rem;
+}
+.top p:first-child {
+  width: 8rem;
+  height: 4rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  border: solid 0.2rem #ff9344;
+  font-size: 2rem;
+  color: #000000;
+  text-align: center;
+  line-height: 4rem;
+}
+.top a {
+  color: #000000;
+}
+.top a img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.head {
+  padding: 0 1rem;
+  display: flex;
+  margin-top: 1rem;
+}
+.head img {
+  width: 11rem;
+  height: 11rem;
+  background-color: #ff9344;
+  border-radius: 5.5rem;
+}
+.head .cont {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.head .cont a {
+  display: block;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #000000;
+}
+.head .cont a:last-child {
+  width: 12rem;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #9d9d9d;
+  margin-top: 2rem;
+}
+.head .right {
+  margin-left: 16rem;
+  margin-top: 3rem;
+}
+.head .right span {
+  width: 3rem;
+  font-size: 5rem;
+  color: #010101;
+}
+
+.content {
+  padding: 0 1rem;
+  width: 47rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.content a:nth-child(1) {
+  width: 12rem;
+  height: 9rem;
+  background-image: url(../img/04img/my01.png);
+  background-size: 12rem 9rem;
+}
+.content a:nth-child(1) p {
+  font-size: 1.3867rem;
+  color: #000000;
+  text-align: center;
+  margin-top: 7rem;
+}
+.content a:nth-child(2) {
+  width: 12rem;
+  height: 9rem;
+  background-image: url(../img/04img/my02.png);
+  background-size: 12rem 9rem;
+}
+.content a:nth-child(2) p {
+  font-size: 1.3867rem;
+  color: #000000;
+  text-align: center;
+  margin-top: 7rem;
+}
+.content a:nth-child(3) {
+  width: 12rem;
+  height: 9rem;
+  background-image: url(../img/04img/my03.png);
+  background-size: 12rem 9rem;
+}
+.content a:nth-child(3) p {
+  font-size: 1.3867rem;
+  color: #000000;
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.icon {
+  padding: 0 1rem;
+  margin-top: 1rem;
+}
+.icon .ent {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+.icon .ent:nth-child(5) {
+  margin-top: 5rem;
+}
+.icon .ent a:first-child img {
+  width: 5rem;
+  height: 5rem;
+}
+.icon .ent a:last-child img {
+  width: 2rem;
+  height: 2rem;
+  line-height: 3rem;
+}
+.icon .ent p {
+  width: 8rem;
+  font-size: 2rem;
+  color: #000000;
+  margin-left: 2rem;
+}
+.icon .ent span {
+  font-size: 2rem;
+  color: #000000;
+  margin-left: 21rem;
+  margin-right: 1rem;
+}
+
+.bottom {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.bottom .life {
+  width: 9rem;
+  height: 5rem;
+  margin-left: 5rem;
+  border-radius: 3rem;
+  background-color: #ff9344;
+}
+.bottom .life a p {
+  height: 1rem;
+  font-size: 2rem;
+  line-height: 5rem;
+  color: #ffffff;
+  text-align: center;
+}
+.bottom .right {
+  width: 9rem;
+  height: 5rem;
+  margin-left: 15rem;
+  border-radius: 3rem;
+  background-color: #ff9344;
+}
+.bottom .right a p {
+  height: 1rem;
+  font-size: 2rem;
+  line-height: 5rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  height: 7rem;
+  padding: 0 3rem;
+  margin-bottom: 1rem;
+}
+.foot img {
+  height: 4rem;
+}
+.foot p {
+  text-align: center;
+  font-size: 2rem;
+  color: #000000;
+}
+
+/*# sourceMappingURL=04app.css.map */

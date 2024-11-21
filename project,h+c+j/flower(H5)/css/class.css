@@ -1,0 +1,309 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/* 禁用长按页面时弹出的菜单 */
+img,
+a {
+  -webkit-touchu-callout: none;
+}
+
+a {
+  /* 清除点击选中高亮 */
+  -webkit-tap-highlight-color: transparent;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.3333333333vw 13.3333333333vw 0;
+  background-color: #F6F6F6;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li a {
+  color: #333333;
+  text-align: center;
+}
+nav ul li a i {
+  font-size: 6.6666666667vmin !important;
+}
+nav ul li a p {
+  font-size: 3.2vmin;
+  line-height: 4vw;
+}
+nav ul .current a {
+  color: #884E22;
+}
+
+body {
+  background-color: #f6f6f6;
+}
+
+header {
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 0.5333333333vw;
+}
+header .search {
+  width: 100%;
+  padding: 1.3333333333vw 2.6666666667vw;
+  box-sizing: border-box;
+  position: relative;
+}
+header .search input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2.6666666667vw 11.2vw;
+  background-color: #F3F5F7;
+  outline: 0;
+  border: 0;
+  font-size: 3.7333333333vmin;
+  border-radius: 9.0666666667vw;
+  color: #71797F;
+}
+header .search input::placeholder {
+  font-size: 3.7333333333vmin;
+  color: #71797F;
+}
+header .search i {
+  font-size: 2.6666666667vmin;
+  color: #71797F;
+  position: absolute;
+  left: 10.1333333333vw;
+  top: 4.4vw;
+}
+
+main {
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 13.3333333333vw;
+}
+main section {
+  display: flex;
+  justify-content: flex-end;
+}
+main section aside {
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 12vw;
+  padding-top: 2.6666666667vw;
+}
+main section aside ul {
+  height: 100vh;
+  padding-bottom: 26.6666666667vw;
+}
+main section aside ul li {
+  padding: 2.6666666667vw 0;
+  border-left: 0.5333333333vw solid transparent;
+  text-align: center;
+  width: 20vw;
+}
+main section aside ul li a {
+  font-size: 3.7333333333vmin;
+  color: #333333;
+}
+main section aside ul li:nth-of-type(n+1) {
+  margin-top: 4vw;
+}
+main section aside ul li:hover {
+  border-left: 0.5333333333vw solid #884E22;
+}
+main section aside ul li:hover a {
+  color: #884E22;
+}
+main section aside ul .current {
+  border-left: 0.5333333333vw solid #884E22;
+}
+main section aside ul .current a {
+  color: #884E22;
+}
+main section .right {
+  border-left: 0.2666666667vw solid #E9ECF0;
+  padding-bottom: 49.0666666667vw;
+}
+main section .right .boxImg {
+  margin-top: 2.6666666667vw;
+  margin-left: 2.6666666667vw;
+  margin-right: 2.6666666667vw;
+  width: 72.5333333333vw;
+}
+main section .right .classBox {
+  width: 72.5333333333vw;
+  margin: 4vw 2.6666666667vw;
+  border: 0.0533333333vw solid rgba(159, 153, 153, 0.5019607843);
+  padding: 2.6666666667vw 0 3.2vw 0.8vw;
+  box-sizing: border-box;
+}
+main section .right .classBox .classTitle {
+  font-size: 4.2666666667vmin;
+  font-weight: 600;
+  color: #555555;
+}
+main section .right .classBox .classList {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4vw;
+  justify-content: space-between;
+}
+main section .right .classBox .classList li {
+  width: 50%;
+  text-align: center;
+  margin-top: 5.3333333333vw;
+}
+main section .right .classBox .classList li a {
+  font-size: 3.7333333333vmin;
+  color: #666666;
+}
+main section .right .classBox .classList li:hover a {
+  color: #884E22;
+}
+
+/*# sourceMappingURL=class.css.map */

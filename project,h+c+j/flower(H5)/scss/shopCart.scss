@@ -1,0 +1,155 @@
+@import './global.scss';
+@import './global.scss';
+body {
+    background-color: #E9ECF0;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: getvw(1) solid #E4E4E4;
+    i {
+        position: absolute;
+        left: getvw(15);
+        top: getvw(15);
+        font-size: getvm(20) !important;
+        color: #656565;
+        font-weight: bold;
+    }
+    h2 {
+        font-size: getvm(16);
+        color: #555555;
+        padding: getvw(16) 0;
+    }
+}
+
+main {
+    width: 100%;
+    padding-top: getvm(49);
+    .buy {
+        width: 100%;
+        background-color: #fff;
+        margin-bottom: getvw(15);
+        .content {
+            .shopBox {
+                display: flex;
+                padding: getvw(15) 0 getvw(20);
+                border-bottom: getvw(1) solid #CCCCCC;
+                input {
+                    align-self: center;
+                    margin-left: getvw(10);
+                }
+                .imgBox {
+                    width: getvw(132.8);
+                }
+                .shopInfo {
+                    align-self: flex-end;
+                    margin-left: getvw(10);
+                    h2 {
+                        font-size: getvm(16);
+                        color: #333333;
+                        margin-bottom: getvw(12);
+                    }
+                    p {
+                        color: #555555;
+                        font-size: getvm(14);
+                        &:nth-last-of-type(n+1) {
+                            margin-bottom: getvw(8);
+                        }
+                        &:nth-of-type(2) {
+                            span {
+                                color: #999999;
+                                text-decoration: line-through;
+                            }
+                        }
+                        &:nth-of-type(3) {
+                            span {
+                                color: #FF2222;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .mayLike {
+        width: 100%;
+        background-color: #f6f6f6;
+        padding-bottom: getvw(50);
+        .title {
+            padding-top: getvw(15);
+            padding-left: getvw(15);
+            font-size: getvm(17.5);
+            color: #555555;
+        }
+        .content {
+            margin-top: getvw(4);
+            padding: getvw(15);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .shopItem {
+                margin-bottom: getvw(20);
+                box-shadow: 0 0 getvm(5) 0 #ccc;
+                background-color: #ffffff;
+                .shopImg {
+                    width: getvw(165);
+                }
+                .shopTitle {
+                    margin: getvw(6) 0 getvw(10);
+                    padding-left: getvw(5);
+                    h2 {
+                        font-size: getvm(14);
+                        font-weight: 400;
+                        color: #666666;
+                    }
+                }
+                .shopInfo {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 0 getvw(5) getvw(5);
+                    p {
+                        &:first-child {
+                            font-size: getvm(14);
+                            font-weight: 600;
+                            color: #FF4433;
+                        }
+                        &:last-child {
+                            font-size: getvm(12);
+                            font-weight: 400;
+                            color: #999999;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    height: getvw(50);
+    bottom: 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    p {
+        padding-left: getvw(15);
+        font-size: getvm(14);
+        color: #884E22;
+        line-height: getvw(50);
+    }
+    a {
+        width: getvw(90);
+        height: getvw(50);
+        padding-left: getvw(15);
+        line-height: getvw(50);
+        font-size: getvm(14);
+        color: #ffffff;
+        background-color: #884E22;
+    }
+}

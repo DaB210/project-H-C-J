@@ -1,0 +1,147 @@
+@import './_global.scss';
+
+body {
+    background-color: #eaebef;
+}
+
+// 头部
+// .header {
+//     // width: getvw(375);
+//     height: getvw(51);
+//     opacity: 1;
+//     background: #ffffffff;
+//     display: flex;
+
+//     p {
+//         height: getvw(40);
+//         // opacity: 1;
+//         color: #555555ff;
+//         font-size: getvw(16);
+//         font-weight: 500;
+//         font-family: "PingFang SC";
+//         // text-align: left;
+//         line-height: getvw(51);
+//         margin-left: getvw(133);
+//     }
+
+//     span {
+//         font-size: getvw(16);
+//         line-height: getvw(51);
+//         margin-left: getvw(148);
+//     }
+
+//     a {
+//         color: #555555ff;
+
+//         i {
+//             margin-top: getvw(14);
+//             line-height: getvw(45);
+//             margin-left: getvw(10);
+//             font-size: getvw(29);
+//             opacity: 1;
+//             color: #555555ff;
+//         }
+//     }
+// }
+
+
+
+.header {
+    // width: getvw(375);
+    height: getvw(51);
+    opacity: 1;
+    border-bottom: getvw(1) solid #e9ecf0ff;
+    background: #ffffffff;
+    display: flex;
+    // align-items: center;
+
+    span {
+        font-size: getvw(20);
+        line-height: getvw(51);
+        margin-left: getvw(10);
+        position: relative;
+    }
+
+    a {
+        color: #555555;
+
+        h3 {
+            font-size: getvw(16);
+            line-height: getvw(51);
+            margin-left: getvw(310);
+        }
+    }
+
+    p {
+        position: absolute;
+        text-align: center;
+        margin-left: getvw(171);
+        // text-align: center;
+        // position: absolute;
+        height: getvw(40);
+        // opacity: 1;
+        color: #555555ff;
+        font-size: getvw(16);
+        font-weight: 500;
+        font-family: "PingFang SC";
+        // text-align: left;
+        line-height: getvw(51);
+        text-align: center;
+    }
+}
+
+// 个人资料-修改密码
+.content {
+    width: getvw(365);
+    height: getvw(60);
+    border-radius: getvw(5);
+    opacity: 1;
+    background: #ffffffff;
+    margin: auto;
+
+    p {
+        line-height: getvw(55);
+        margin-top: getvw(5);
+        opacity: 1;
+        color: #555555ff;
+        margin-left: getvw(20);
+        font-size: getvw(14);
+        font-weight: 400;
+        font-family: "PingFang SC";
+
+        span {
+            font-size: getvw(15);
+            margin-left: getvw(249);
+            // transform: rotateY(180deg);
+        }
+    }
+}
+
+// 退出
+.secede {
+    margin: auto;
+    width: getvw(150);
+    height: getvw(30);
+    // border-radius: getvw(10);
+    opacity: 1;
+    background-color: #884e22ff;
+    border-radius: getvw(20);
+
+
+    a {
+
+        // text-align: center;
+        p {
+            margin-top: getvw(33.34);
+            height: 25px;
+            opacity: 1;
+            color: #ffffffff;
+            font-size: getvw(14);
+            font-weight: 400;
+            font-family: "PingFang SC";
+            line-height: getvw(30);
+            text-align: center;
+
+        }
+    }
+}

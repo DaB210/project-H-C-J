@@ -1,0 +1,203 @@
+@function getvm($w) {
+    @return $w /750*100+vw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+body {
+    width: 47rem;
+    margin: auto;
+
+
+}
+
+// 头部-发现
+.top {
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    // background-color: pink;
+    text-align: center;
+
+    p {
+
+        &:first-child {
+            width: 8rem;
+
+            height: 4rem;
+            background-color: #ffffff;
+            border-radius: 1rem;
+            border: solid .2rem #ff9344;
+            font-size: 2rem;
+            color: #000000;
+            // width: 8rem;
+            text-align: center;
+            line-height: 4rem;
+            // background-color: #ff9344;
+        }
+
+        font-size: 2rem;
+        color: #000000;
+        line-height: 4rem;
+    }
+
+    a {
+        color: #000000;
+    }
+
+    .right {
+
+        select {
+
+            appearance: none; //清除默认样式
+            // -moz-appearance: none;
+            // -webkit-appearance: none;
+            // 下拉箭头图片
+            background: url(../img/03img/select_arrow.png) no-repeat right center;
+            // padding-right: 1.1867rem; 
+            // 留出来下拉箭头的位置
+            background-size: 2rem 2rem;
+            width: 10rem;
+            height: 4rem;
+            background-color: #ffffff;
+            border: 1px solid #ea990e;
+            font-size: 2rem;
+            color: #000000;
+            padding: 0 1rem
+        }
+    }
+}
+
+.classify{
+    display: flex;
+    // background-color: pink;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    img{
+        width: 9rem;
+            height: 9rem;
+            border-radius: 4.5rem;
+            
+    }
+    p{
+        text-align: center;
+            font-size: 2rem;
+            line-height: 3rem;
+            color: #000000;
+    }
+}
+
+.classify_ul{
+    // background-color: pink;
+    margin-top: 1rem;
+    
+    ul{
+        width: 6rem;
+            height: 1rem;
+        display: flex;
+            justify-content: space-evenly;
+            margin: auto;
+a{
+           
+                li {
+                    width: 1rem;
+                    height: 1rem;
+                    border-radius: 50%;
+                    background-color: #ffc9a1;
+                }
+                            &:first-child li{
+                    width: 1rem;
+                    height: 1rem;
+                    border-radius: 50%;
+                    background-color: #ff9344;
+                }
+                                 
+}
+    }
+}
+//   美食类-更多 
+
+.title {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+
+    img {
+        // width: 2rem;
+        height: 3rem;
+        margin-left: 2rem;
+    }
+
+    a {
+        img {
+            margin-top: 1rem;
+            display: block;
+            width: 2rem;
+            height: 2rem;
+            margin-left: 1rem;
+            line-height: 3rem;
+
+        }
+    }
+
+    p {
+        width: 8rem;
+        font-size: 2rem;
+        color: #000000;
+        margin-left: 2rem;
+    }
+
+    span {
+        width: 4rem;
+        font-size: 2rem;
+        line-height: 3rem;
+        letter-spacing: 0rem;
+        color: #000000;
+        margin-left: 22rem;
+    }
+
+}
+.cate{
+    padding: 0 1rem;
+    margin-top: 3rem;
+    display: flex;
+        justify-content: space-evenly;
+        // margin-bottom: 2rem;
+    a{
+        
+        img{
+            width: 8rem;
+                height: 8rem;
+        }
+    }
+}
+
+
+// 底部---导航栏
+.foot {
+    display: flex;
+    justify-content: space-between;
+    height: 7rem;
+    padding: 0 3rem;
+    margin-bottom: 1rem;
+
+    margin-top: 5rem;
+
+    img {
+        height: 4rem;
+
+    }
+
+    p {
+        text-align: center;
+        font-size: 2rem;
+        color: #000000;
+    }
+}

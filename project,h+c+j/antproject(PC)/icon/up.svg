@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="8px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>向上蓝色箭头</title>
+    <g id="招聘网站2轮定稿" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组" transform="translate(-6.000000, -8.000000)">
+            <g id="icon-right（尖角-蓝色）" transform="translate(12.000000, 12.000000) rotate(-90.000000) translate(-12.000000, -12.000000) ">
+                <rect id="矩形" fill="#000000" fill-rule="nonzero" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                <rect id="矩形备份-3" fill="#000000" fill-rule="nonzero" opacity="0" x="3" y="3" width="18" height="18"></rect>
+                <polyline id="路径" stroke="#1677FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(9.156854, 12.001068) rotate(-315.000000) translate(-9.156854, -12.001068) " points="5.65685425 8.50106781 12.6568542 8.50106781 12.6568542 15.5010678"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

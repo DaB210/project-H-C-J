@@ -1,0 +1,255 @@
+@function getvm($w) {
+    @return $w /750*100+ vw;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+// body{
+//     width: 47rem;
+//     margin: auto;
+   
+    
+// }
+
+// 头部-我的-信封消息 
+.top{
+padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    // background-color: pink;
+    text-align: center;
+ 
+            p{
+
+                &:first-child {
+        width: 8rem;
+
+        height: 4rem;
+         background-color: #ffffff;
+        border-radius: 1rem;
+        border: solid .2rem #ff9344;
+        font-size: 2rem;
+        color: #000000;
+        // width: 8rem;
+        text-align: center;
+        line-height: 4rem;
+        // background-color: #ff9344;
+                }
+        font-size: 2rem;
+        color: #000000;
+                line-height: 4rem;
+            }
+
+    a{
+        color: #000000;
+        img{
+            width: 4rem;
+                height: 4rem;
+        }
+    }
+}
+// 头像-登录-设置
+.head{
+    padding: 0 1rem;
+    display: flex;
+    margin-top: 1rem;
+    img {
+            width: 11rem;
+            height: 11rem;
+            background-color: #ff9344;
+            border-radius: 5.5rem;
+        }
+        .cont{
+            margin-top: 2rem;
+            margin-left: 2rem;
+            a {
+            display: block;
+                    font-size: 2rem;
+                    line-height: 2rem;
+                    color: #000000;
+            
+                    &:last-child {
+        width: 12rem;
+                        font-size: 2rem;
+                        line-height: 3rem;
+                        color: #9d9d9d;
+                        margin-top: 2rem;
+                   
+                    }
+                }
+        }
+        .right{
+            margin-left: 16rem;
+                margin-top: 3rem;
+            span{
+               
+                    width: 3rem;
+                    font-size: 5rem;
+                    color: #010101;
+            }
+
+        }
+}
+// 点评-收藏-优惠劵
+.content{
+    padding: 0 1rem;
+    width: 47rem;
+    display: flex;
+        // justify-content: space-evenly;
+        justify-content: space-between;
+        margin-top: 1rem;
+        // background-color: pink;
+        
+    a{
+&:nth-child(1){
+    width: 12rem;
+        height: 9rem;
+    background-image: url(../img/04img/my01.png) ;
+    background-size: 12rem 9rem;
+    p{
+            font-size: 1.3867rem;
+            color: #000000;
+            text-align: center;
+            margin-top: 7rem;
+    }
+}
+&:nth-child(2) {
+    width: 12rem;
+    height: 9rem;
+    background-image: url(../img/04img/my02.png);
+background-size: 12rem 9rem;
+    p {
+        font-size: 1.3867rem;
+        color: #000000;
+        text-align: center;
+        margin-top: 7rem;
+    }
+}&:nth-child(3) {
+    width: 12rem;
+    height: 9rem;
+    background-image: url(../img/04img/my03.png);
+background-size: 12rem 9rem;
+    p {
+        font-size: 1.3867rem;
+        color: #000000;
+    text-align: center;
+        margin-top: 7rem;
+    }
+}
+           
+        }
+
+    }
+// 钱包-点评-好友等
+.icon{
+    padding: 0 1rem;
+    margin-top: 1rem;
+    .ent{
+display: flex;
+align-items: center;
+margin-left: 1rem;
+margin-top: 1.5rem;
+text-align: center;
+&:nth-child(5) {
+        margin-top: 5rem;
+    }
+
+a{
+
+            &:first-child {
+                img{
+                    width: 5rem;
+                    height: 5rem;
+                }
+        
+        
+            }
+            &:last-child {
+                img{
+                    width: 2rem;
+                        height: 2rem;
+                        line-height: 3rem;
+                }
+            }
+}
+p{
+    width: 8rem;
+        font-size: 2rem;
+        color: #000000;
+        margin-left: 2rem;
+}
+span{
+            font-size: 2rem;
+            color: #000000;
+            margin-left: 21rem;
+            margin-right: 1rem;
+}
+    }
+
+    
+}
+// 退出--注销
+.bottom{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    .life{
+        width: 9rem;
+            height: 5rem;
+           margin-left: 5rem;
+                border-radius: 3rem;
+                background-color: #ff9344;
+a{
+    p {
+        
+            height: 1rem;
+            font-size: 2rem;
+            line-height: 5rem;
+            color: #ffffff;
+            text-align: center;
+        }
+}
+    }
+    .right{
+width: 9rem;
+    height: 5rem;
+margin-left: 15rem;
+    border-radius: 3rem;
+    background-color: #ff9344;
+
+    a {
+        p {
+
+            height: 1rem;
+            font-size: 2rem;
+            line-height: 5rem;
+            color: #ffffff;
+            text-align: center;
+        }
+    }
+    }
+}
+// 底部---导航栏
+.foot{
+display: flex;
+justify-content: space-between;
+height: 7rem;
+padding: 0 3rem;
+margin-bottom: 1rem;
+img{
+    height: 4rem;
+   
+}
+p{
+    text-align: center;
+        font-size: 2rem;
+        color: #000000;
+}
+}

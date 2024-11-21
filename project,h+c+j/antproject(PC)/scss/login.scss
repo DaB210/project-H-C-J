@@ -1,0 +1,161 @@
+@import'commonHeadBottom';
+
+@function getvw($w) {
+    @return calc($w/1440) * 100+vw;
+}
+
+// @function getvh($h) {
+//     @return calc($h/1024) * 100+vh;
+// }
+
+.banner {
+    width: 100%;
+    background-image: url("../image/login_banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    // width: 1440px;
+    // height: 800px;
+    height: 100vh;
+    margin: auto;
+
+    .top {
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+
+        background-color: transparent;
+        transition: background-color 0.5s ease;
+        /* 添加背景色的过渡动画 */
+        color: inherit;
+        // background-color: #ffffff;
+        // .head {}
+    }
+
+    .login_content {
+        // width: 634.75px;
+        // height: 140px;
+        width: getvw(634.75);
+        height: getvw(140);
+        margin-top: getvw(170);
+        margin-left: getvw(402);
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        /* 水平居中 */
+        align-items: center;
+        /* 垂直居中 */
+        flex-direction: column;
+
+        // img {
+        //     // width: 634.75px;
+        //     // height: 140px;
+        //     // margin: auto;
+        //     //  margin-top: 180px;
+        //     // width: getvw(634.75);
+        //     // height: getvw(140);
+        //     // margin-top: getvw(180);
+        //     line-height: getvh(29);
+        // }
+
+        button {
+            // width: 360px;
+            // height: 60px;
+            //border-radius: 6px;
+            width: getvw(360);
+            height: getvw(60);
+            border-radius: getvw(6);
+            opacity: 1;
+            border: 1px solid #1677ff;
+            background: #1677ff;
+            box-shadow: 0 2px 0 0 #0000000a;
+            //margin-top: 90px;
+            margin-top: getvw(90);
+            cursor: pointer;
+            margin-top: getvw(92);
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: getvw(36);
+            }
+
+            span {
+
+                // height: 29px;
+                opacity: 1;
+                color: #ffffff;
+                //font-size: 18px;
+                //font-weight: 500;
+                font-family: "PingFang SC";
+                text-align: center;
+                // line-height: 28.29px;
+                // height: getvw(29);
+                font-size: getvw(18);
+                font-weight: getvw(500);
+                line-height: getvw(28.29);
+                margin-left: getvw(12);
+
+
+
+
+            }
+        }
+
+        a {
+            P {
+                // margin-top: 32px;
+                // width: 84px;
+                // height: 22px;
+                opacity: 1;
+                color: #ffffff;
+                // font-size: 14px;
+                font-weight: 400;
+                font-family: "PingFang SC";
+                text-align: center;
+                //  line-height: 22px;
+                margin-top: getvw(32);
+                // width: getvw(84);
+                height: getvw(22);
+                font-size: getvw(14);
+                font-weight: getvw(400);
+                line-height: getvw(22);
+            }
+        }
+    }
+}
+
+// .hangQR_up {
+//     img {
+
+//         position: absolute;
+
+//         display: none;
+//         width: getvw(128);
+//         height: getvw(128);
+//         left: getvw(860);
+//         bottom: getvw(-70);
+
+
+//         &:nth-child(2) {
+//             left: getvw(910);
+//         }
+
+//         &:nth-child(3) {
+//             left: getvw(970);
+//         }
+
+//         &:nth-child(4) {
+//             left: getvw(1020);
+//         }
+
+//     }
+
+
+// }

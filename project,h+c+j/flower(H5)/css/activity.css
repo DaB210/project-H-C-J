@@ -1,0 +1,286 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/* 禁用长按页面时弹出的菜单 */
+img,
+a {
+  -webkit-touchu-callout: none;
+}
+
+a {
+  /* 清除点击选中高亮 */
+  -webkit-tap-highlight-color: transparent;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.3333333333vw 13.3333333333vw 0;
+  background-color: #F6F6F6;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li a {
+  color: #333333;
+  text-align: center;
+}
+nav ul li a i {
+  font-size: 6.6666666667vmin !important;
+}
+nav ul li a p {
+  font-size: 3.2vmin;
+  line-height: 4vw;
+}
+nav ul .current a {
+  color: #884E22;
+}
+
+body {
+  background-color: #f6f6f6;
+}
+
+header {
+  width: 100%;
+  background-color: #fff;
+}
+header .logoBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 3.7333333333vw;
+  box-sizing: border-box;
+}
+header .logoBox .search i {
+  font-size: 5.6vmin;
+  color: #000;
+}
+header .logoBox .logo {
+  width: 20vw;
+  margin: 2.5413333333vw 0;
+  margin-left: 33.6vw;
+}
+header .banner {
+  width: 100%;
+  margin-bottom: 2.6666666667vw;
+}
+header .banner .imgBox {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+main .activity_cont {
+  padding: 4vw 0;
+  margin-bottom: 2.6666666667vw;
+}
+main .activity_cont .title p {
+  color: #884E22;
+  text-align: center;
+}
+main .activity_cont .title p:first-of-type {
+  font-size: 6.6666666667vmin;
+  line-height: 9.3333333333vw;
+}
+main .activity_cont .title p:last-of-type {
+  font-size: 4.2666666667vmin;
+  line-height: 6vw;
+}
+main .activity_cont .content {
+  padding: 0 4vw;
+  margin-top: 1.0666666667vw;
+  padding-top: 5.3333333333vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+main .activity_cont .content .shopItem {
+  margin-bottom: 5.3333333333vw;
+}
+main .activity_cont .content .shopItem .shopImg {
+  width: 44vw;
+}
+main .activity_cont .content .shopItem .shopTitle {
+  margin: 1.6vw 0 2.6666666667vw;
+}
+main .activity_cont .content .shopItem .shopTitle h2 {
+  font-size: 3.7333333333vmin;
+  font-weight: 400;
+  color: #666666;
+}
+main .activity_cont .content .shopItem .shopInfo {
+  display: flex;
+  justify-content: space-between;
+}
+main .activity_cont .content .shopItem .shopInfo p:first-child {
+  font-size: 3.7333333333vmin;
+  font-weight: 600;
+  color: #FF4433;
+}
+main .activity_cont .content .shopItem .shopInfo p:last-child {
+  font-size: 3.2vmin;
+  font-weight: 400;
+  color: #999999;
+}
+
+footer {
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  font-size: 3.2vmin;
+  line-height: 5.3333333333vw;
+  color: #999999;
+  padding: 6.6666666667vw 0 4vw;
+  margin-bottom: 13.3333333333vw;
+}
+
+/*# sourceMappingURL=activity.css.map */

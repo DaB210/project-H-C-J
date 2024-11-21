@@ -1,0 +1,245 @@
+@charset "UTF-8";
+@import url(../css/_reset.css);
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.colorActive {
+  background-color: #fff;
+  color: #000;
+}
+.colorActive p {
+  color: #000;
+}
+
+.top {
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.top .head {
+  width: 100vw;
+  height: 5.5555555556vw;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.top .head .logo {
+  margin-left: 5.2083333333vw;
+}
+.top .head .logo img {
+  width: 12.24375vw;
+  height: 2.7458333333vw;
+}
+.top .head .navbar a:hover p {
+  color: #1677FF;
+}
+.top .head .login a:hover p {
+  color: #1677FF;
+}
+.top .head .navbar {
+  margin-left: 20.1388888889vw;
+  width: 45.8333333333vw;
+  height: 5.5555555556vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top .head .navbar .at {
+  color: #1677FF;
+}
+.top .head .navbar p {
+  opacity: 1;
+  color: #ffffff;
+  font-size: 1.1111111111vw;
+  font-weight: 41.6666666667vw;
+  font-family: "PingFang SC";
+  text-align: left;
+  line-height: 1.7458333333vw;
+  font-weight: bold;
+}
+.top .head .login {
+  display: flex;
+  align-items: center;
+}
+.top .head .login p {
+  font-weight: bold;
+  opacity: 1;
+  color: #ffffff;
+  font-size: 0.9722222222vw;
+  font-weight: 27.7777777778vw;
+  font-family: "PingFang SC";
+  text-align: left;
+  line-height: 1.5277777778vw;
+  margin-left: 3.4722222222vw;
+}
+.top .head .login img {
+  width: 1.8055555556vw;
+  height: 1.8055555556vw;
+  margin-left: 1.6666666667vw;
+}
+
+.bottom {
+  background-color: #1C2533;
+  margin: auto;
+  height: 17.5694444444vw;
+}
+.bottom .bot_content {
+  width: 81.9444444444vw;
+  height: 12.9861111111vw;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1019607843);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottom .bot_content .box {
+  width: 30.7291666667vw;
+  height: 6.3138888889vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bottom .bot_content .box p:nth-child(1) {
+  height: 1.5277777778vw;
+  opacity: 1;
+  color: #ffffff;
+  font-size: 1.1111111111vw;
+  font-weight: 34.7222222222vw;
+  font-family: "PingFang SC";
+  text-align: left;
+  line-height: 1.5277777778vw;
+}
+.bottom .bot_content .box p {
+  height: 1.25vw;
+  opacity: 1;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.8333333333vw;
+  font-weight: 20.8333333333vw;
+  font-family: "PingFang SC";
+  text-align: left;
+  line-height: 1.25vw;
+}
+.bottom .bot_content .hangQR img {
+  width: 2.2222222222vw;
+  height: 2.2222222222vw;
+  margin-right: 1.25vw;
+  position: static;
+}
+.bottom .foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4.5833333333vw;
+}
+.bottom .foot p {
+  margin-left: 0.4166666667vw;
+  height: 1.25vw;
+  opacity: 1;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.8333333333vw;
+  font-weight: 20.8333333333vw;
+  font-family: "PingFang SC";
+  text-align: center;
+  line-height: 1.25vw;
+}
+
+.hangQR_up img {
+  position: absolute;
+  overflow: hidden;
+  display: none;
+  width: 8.8888888889vw;
+  height: 8.8888888889vw;
+  left: 59.7222222222vw;
+  margin-top: -13.4722222222vw;
+}
+.hangQR_up img:nth-child(2) {
+  left: 63.1944444444vw;
+}
+.hangQR_up img:nth-child(3) {
+  left: 67.3611111111vw;
+}
+.hangQR_up img:nth-child(4) {
+  left: 70.8333333333vw;
+}
+
+.banner {
+  width: 100%;
+  background-image: url("../image/login_banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: auto;
+}
+.banner .top {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: transparent;
+  transition: background-color 0.5s ease;
+  /* 添加背景色的过渡动画 */
+  color: inherit;
+}
+.banner .login_content {
+  width: 44.0798611111vw;
+  height: 9.7222222222vw;
+  margin-top: 11.8055555556vw;
+  margin-left: 27.9166666667vw;
+}
+.banner .content {
+  display: flex;
+  justify-content: center;
+  /* 水平居中 */
+  align-items: center;
+  /* 垂直居中 */
+  flex-direction: column;
+}
+.banner .content button {
+  width: 25vw;
+  height: 4.1666666667vw;
+  border-radius: 0.4166666667vw;
+  opacity: 1;
+  border: 1px solid #1677ff;
+  background: #1677ff;
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.0392156863);
+  margin-top: 6.25vw;
+  cursor: pointer;
+  margin-top: 6.3888888889vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner .content button img {
+  width: 2.5vw;
+}
+.banner .content button span {
+  opacity: 1;
+  color: #ffffff;
+  font-family: "PingFang SC";
+  text-align: center;
+  font-size: 1.25vw;
+  font-weight: 34.7222222222vw;
+  line-height: 1.9645833333vw;
+  margin-left: 0.8333333333vw;
+}
+.banner .content a P {
+  opacity: 1;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "PingFang SC";
+  text-align: center;
+  margin-top: 2.2222222222vw;
+  height: 1.5277777778vw;
+  font-size: 0.9722222222vw;
+  font-weight: 27.7777777778vw;
+  line-height: 1.5277777778vw;
+}
+
+/*# sourceMappingURL=login.css.map */

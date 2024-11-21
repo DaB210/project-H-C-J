@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品详情页</title>
+    <link rel="stylesheet" href="./css/shopDetails.css">
+    <link rel="stylesheet" href="./iconfont/iconfont.css">
+</head>
+
+<body>
+    <header>
+        <i class="iconfont icon-fanhuijiantou"></i>
+        <div class="logo">
+            <img src="./img/shopDetails/logo.png.png" alt="">
+        </div>
+        <i class="iconfont icon-daohanglan"></i>
+    </header>
+    <main>
+        <div class="banner">
+            <img src="./img/shopDetails/202006301617493951.jpg.png" alt="">
+        </div>
+        <div class="shopInfo">
+            <div class="title">
+                <h2>浪漫满屋</h2>
+            </div>
+            <div class="price">
+                <p>￥229 <span>￥289</span></p>
+                <p>已售17229笔</p>
+            </div>
+        </div>
+        <div class="shopList">
+            <ul>
+                <li>材料</li>
+                <li>包装</li>
+                <li>配送</li>
+                <li>附送</li>
+            </ul>
+            <ul>
+                <li>19枝红玫瑰，火龙珠，银叶菊绿叶搭配</li>
+                <li>黑色韩式包装</li>
+                <li>全国送货上门，市区免运费</li>
+                <li>下单填写留言，免费赠送贺卡</li>
+            </ul>
+        </div>
+        <div class="shopNum">
+            <p>数量</p>
+            <div class="NumBox">
+                <i class="iconfont icon-jianhao"></i>
+                <input type="number" value="1">
+                <i class="iconfont icon-jiahao"></i>
+            </div>
+        </div>
+        <div class="shopComment">
+            <div class="title">
+                <h2>订单评价</h2>
+                <p>最近已有1330条评论</p>
+            </div>
+            <div class="user">
+                <div class="userInfo">
+                    <div class="userImg">
+                        <img src="./img/shopDetails/morenTou.png.png" alt="">
+                    </div>
+                    <div class="userTel">147****2479</div>
+                </div>
+                <i class="iconfont icon-shoucang"></i>
+            </div>
+            <div class="comment">
+                <div class="text">
+                    一大束玫瑰花，老婆非常喜欢。花也很新鲜，推荐大家买
+                </div>
+                <div class="img">
+                    <img src="./img/shopDetails/202012251046531552.jpeg.png" alt="">
+                </div>
+            </div>
+            <div class="user">
+                <div class="userInfo">
+                    <div class="userImg">
+                        <img src="./img/shopDetails/morenTou.png.png" alt="">
+                    </div>
+                    <div class="userTel">181****2931</div>
+                </div>
+                <i class="iconfont icon-shoucang"></i>
+            </div>
+            <div class="comment">
+                <div class="text">
+                    一大束玫瑰花，老婆非常喜欢。花也很新鲜，推荐大家买
+                </div>
+                <div class="img">
+                    <img src="./img/shopDetails/202111101135455401.jpg.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="more">
+            <p>查看更多评价</p>
+        </div>
+        <div class="shopDetails">
+            产品详情
+        </div>
+        <div class="DetailsImg">
+            <img src="./img/shopDetails/202006301618226406.jpg.png" alt="">
+            <img src="./img/shopDetails/202007011529525682.jpg.png" alt="">
+            <img src="./img/shopDetails/202006301618137819.jpg.png" alt="">
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="./index.html">
+                    <i class="iconfont icon-yanhua"></i>
+                    <p>首页</p>
+                </a>
+            </li>
+            <li>
+                <a href="tel:10086">
+                    <i class="iconfont icon-dianhua"></i>
+                    <p>电话</p>
+                </a>
+            </li>
+            <li>
+                <a href="emptyShopCart.html">
+                    <i class="iconfont icon-gouwugouwuchedinggou"></i>
+                    <p>购物车</p>
+                </a>
+            </li>
+            <li>
+                <a href="./shopCart.html">加入购物车</a>
+            </li>
+            <li>
+                <a href="./settlement.html">立即购买</a>
+            </li>
+        </ul>
+    </footer>
+    <script>
+        var div2 = document.querySelectorAll("header .icon-fanhuijiantou");
+        div2.forEach(function(e) {
+            e.addEventListener("click", goIndex);
+        })
+
+        function goIndex() {
+            window.location.href = "./index.html";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+@import './global.scss';
+@function getvw($w) {
+    @return calc($w / 375) * 100+vw;
+}
+
+@function getvm($w) {
+    @return calc($w / 375) * 100+vmin;
+}
+
+body {
+    background-color: #E9ECF0;
+}
+
+header {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 getvw(20) 0 getvw(10);
+    i {
+        font-size: getvw(15) !important;
+        color: #666;
+        font-weight: 600;
+    }
+    .title {
+        padding: getvw(15) 0;
+        font-size: getvm(16);
+        font-weight: 500;
+    }
+}
+
+main {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: getvw(45);
+    padding: getvw(15);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: getvw(50);
+    .shopItem {
+        margin-bottom: getvw(15);
+        background-color: #ffffff;
+        .shopImg {
+            width: getvw(165);
+        }
+        .shopTitle {
+            margin: getvw(6) 0 getvw(10);
+            padding-left: getvw(5);
+            h2 {
+                font-size: getvm(14);
+                font-weight: 400;
+                color: #666666;
+            }
+        }
+        .shopInfo {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 getvw(5) getvw(5);
+            p {
+                &:first-child {
+                    font-size: getvm(14);
+                    font-weight: 600;
+                    color: #FF4433;
+                }
+                &:last-child {
+                    font-size: getvm(12);
+                    font-weight: 400;
+                    color: #999999;
+                }
+            }
+        }
+    }
+}

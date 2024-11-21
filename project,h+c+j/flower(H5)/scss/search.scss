@@ -1,0 +1,130 @@
+@import './global.scss';
+
+@function getvw($w) {
+    @return calc($w / 375) * 100+vw;
+}
+
+@function getvm($w) {
+    @return calc($w / 375) * 100+vmin;
+}
+
+
+// 头部- 搜索
+.header {
+    // width: getvw(375);
+    height: getvw(45);
+    opacity: 1;
+    background: #ffffffff;
+    display: flex;
+    border-bottom: getvw(1) solid #f3f5f7ff;
+
+    // background-color: pink;
+    a {
+        color: #555555ff;
+
+        h2 {
+            // margin-top: getvw(14);
+            line-height: getvw(45);
+            margin-left: getvw(10);
+            font-size: getvw(20);
+            opacity: 1;
+            color: #555555ff;
+        }
+    }
+
+    .kuang {
+
+        width: getvw(260);
+        height: getvw(35);
+        border-radius: getvw(36.3);
+        opacity: 1;
+        background: #f3f5f7ff;
+        margin-left: getvw(16);
+        margin-top: getvw(4);
+        // text-align: center;
+        box-sizing: border-box;
+        padding: getvw(8) 0;
+
+        i {
+            font-size: getvw(14);
+            margin-left: getvw(20);
+            // padding-top: getvw(11);
+            // text-align: center;
+            // margin-top: getvw(100);
+            margin-right: getvw(4);
+        }
+
+        input {
+            border: none;
+            background-color: #f3f5f7ff;
+            outline: none;
+            width: getvw(180);
+            font-size: getvw(14);
+
+            &::placeholder {
+                font-size: getvw(14);
+            }
+        }
+    }
+
+    .right {
+        opacity: 1;
+        background: #ff734cff;
+        width: getvw(55.5);
+        height: getvw(27);
+        border-radius: getvw(27.38);
+        margin-left: getvw(5.5);
+        margin-top: getvw(8);
+
+
+        p {
+            opacity: 1;
+            color: #ffffffff;
+            font-size: getvw(14);
+            font-weight: 400;
+            font-family: "PingFang SC";
+            text-align: center;
+            line-height: getvw(27);
+        }
+
+    }
+}
+
+// 搜索-热门-推荐
+.content {
+    h3 {
+        // width: getvw(256.2);
+        // height: getvw(20);
+        opacity: 1;
+        color: #555555ff;
+        font-size: getvw(14);
+        font-weight: 400;
+        font-family: "PingFang SC";
+        text-align: left;
+        margin-top: getvw(17);
+        margin-left: getvw(15);
+    }
+
+    .hang {
+        display: flex;
+        // margin-left: getvw(15);
+        margin-top: getvw(2);
+
+        p {
+            margin-left: getvw(15);
+            border-radius: getvw(5);
+            opacity: 1;
+            background: #e9ecf0ff;
+            padding: getvw(7);
+            height: getvw(33.19);
+            opacity: 1;
+            color: #555555ff;
+            font-size: getvw(13);
+            font-weight: 400;
+            font-family: "PingFang SC";
+            text-align: left;
+            line-height: getvw(19);
+            box-sizing: border-box;
+        }
+    }
+}

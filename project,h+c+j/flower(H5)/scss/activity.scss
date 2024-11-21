@@ -1,0 +1,107 @@
+@import './global.scss';
+body {
+    background-color: #f6f6f6;
+}
+
+header {
+    width: 100%;
+    background-color: #fff;
+    .logoBox {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding-left: getvw(14);
+        box-sizing: border-box;
+        .search {
+            i {
+                font-size: getvm(21);
+                color: #000;
+            }
+        }
+        .logo {
+            width: getvw(75);
+            margin: getvw(9.53) 0;
+            margin-left: getvw(126);
+        }
+    }
+    .banner {
+        width: 100%;
+        .imgBox {
+            width: 100%;
+        }
+        margin-bottom: getvw(10);
+    }
+}
+
+main {
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    .activity_cont {
+        padding: getvw(15) 0;
+        margin-bottom: getvw(10);
+        .title {
+            p {
+                color: #884E22;
+                text-align: center;
+                &:first-of-type {
+                    font-size: getvm(25);
+                    line-height: getvw(35);
+                }
+                &:last-of-type {
+                    font-size: getvm(16);
+                    line-height: getvw(22.5);
+                }
+            }
+        }
+        .content {
+            padding: 0 getvw(15);
+            margin-top: getvw(4);
+            padding-top: getvw(20);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .shopItem {
+                margin-bottom: getvw(20);
+                .shopImg {
+                    width: getvw(165);
+                }
+                .shopTitle {
+                    margin: getvw(6) 0 getvw(10);
+                    h2 {
+                        font-size: getvm(14);
+                        font-weight: 400;
+                        color: #666666;
+                    }
+                }
+                .shopInfo {
+                    display: flex;
+                    justify-content: space-between;
+                    p {
+                        &:first-child {
+                            font-size: getvm(14);
+                            font-weight: 600;
+                            color: #FF4433;
+                        }
+                        &:last-child {
+                            font-size: getvm(12);
+                            font-weight: 400;
+                            color: #999999;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    font-size: getvm(12);
+    line-height: getvw(20);
+    color: #999999;
+    padding: getvw(25) 0 getvw(15);
+    margin-bottom: getvw(50);
+}

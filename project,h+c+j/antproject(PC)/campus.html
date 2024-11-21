@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>蚂蚁集团校园招聘</title>
+    <link rel="stylesheet" href="./css/campus.css" />
+  <link rel="stylesheet icon" href="./icon/favicon.icon" >
+  <script src="./utils/jquery-3.3.1.js"></script>
+  <link rel="stylesheet" href="./utils/animate.css">
+     <link rel="stylesheet" href="./utils/swiper.min.css">
+   </head>
+  <body>
+    <!-- 头部 -->
+    <div class="top">
+      <div class="head">
+        <div class="logo">
+          <a href="#"> <img src="./icon/logo.svg" alt=""  class=""/></a>
+          
+        </div>
+        <div class="navbar">
+          <a href="./homepage.html"><p>主页</p></a>
+          <a href="./society.html"><p >社会招聘</p></a>
+          <a href="./campus.html"><p  class="at">校园招聘</p></a>
+          <a href="./UnderstandingAnts.html"><p>了解蚂蚁</p></a>
+          <a href="./login.html"><p>个人中心</p></a>
+        </div>
+        <div class="login">
+          <a href="./login.html"><p>登录</p></a>
+          <a href="#"><img src="./icon/language.svg" alt="" /></a>
+        </div>
+      </div>
+    </div>
+    <!-- 内容-banner -->
+    <div class="banner">
+      <div class="content">
+
+        <img src="./image/campus_original2.png" alt="" class="content_img" />
+
+<!-- 锚点 -->
+        <a href="#我要投递"
+          ><button>
+            <p>立即投递</p>
+          </button></a
+        >
+      </div>
+    </div>
+
+    
+<!-- 我要投递deliver -->
+ <div class="deliver_title animate__animated animate__fadeInUp">
+    <p id="我要投递">我要投递</p>
+  </div>
+<div class="deliver animate__animated animate__fadeInUp">
+
+
+  <ul>
+    <li >
+      <img src="./image/campus_J1.png" alt="">
+      <p>实习生招聘</p>
+      <span>毕业时间: </span>
+      <span>2023.11-2024.10</span>
+<!-- 
+      <div class="foot"></div>
+      这里用getvw和jQuery一起用出问题，后续更改 -->
+    </li>
+    <li>
+      <img src="./image/campus_J2.png" alt="">
+       <p>应届生招聘</p>
+      <span>毕业时间 </span>
+      <span>2022.11-2023.10</span>
+    </li>
+    <li>
+      <img src="./image/campus_J3.png" alt="">
+       <p>蚂蚁星计划</p>
+      <span> 毕业时间</span>
+      <span>2023.11-2024.10</span>
+    </li>
+    <li>
+      <img src="./image/campus_J4.png" alt="">
+       <p>人才专项</p>
+      <span>研究型实习生-面向人群: </span>
+      <span>在校具有科研能力的学生</span>
+    </li>
+  </ul>
+
+
+</div>
+
+<div class="deliver_below animate__animated animate__fadeInUp">
+  <div class="below_title">
+    <p>通知中心</p>
+    <span>了解更多</span><img src="./image/campus_deliver_right.png" alt="">
+  </div>
+  <div class="below_content">
+    <div class="content_hang">
+      <p>蚂蚁集团2024届实习生招聘在线笔试公告</p>
+      <span class="span2">置顶</span>
+      <span>2023.03.10</span>
+    </div>
+    <div class="content_hang">
+      <p>蚂蚁集团2024届实习生招聘流程公告</p>
+      <span class="span2">置顶</span>
+      <span>2023.03.10</span>
+    </div>
+    <div class="content_hang">
+      <p>蚂蚁集团2023届校园招聘流程公告</p>
+      <span class="span2">应届生</span>
+      <span>2022.09.09</span>
+    </div>
+  </div>
+</div>
+<div class="deliver_lift">
+  <img src="./image/campus_deliver_lift.png" alt="">
+</div>
+
+<!-- 兴趣兴趣 -->
+<div class="campus_interest">
+  <div class="title">
+    <p>选择你感兴趣的职类</p>
+  </div>
+
+  <div class="inbox">
+    <div class="boxlift">
+      <ul>
+        <li   class="tab" onclick="toggleTab(0)">技术</li>
+        <li class="tab" onclick="toggleTab(1)">产品</li>
+        <li class="tab" onclick="toggleTab(2)">运营</li>
+        <li class="tab" onclick="toggleTab(3)">设计</li>
+        <li class="tab" onclick="toggleTab(4)">风险策略</li>
+        <li class="tab" onclick="toggleTab(5)">综合</li>
+      </ul>
+    </div>
+    <!-- boxright -->
+<div class="inbox_int">
+      <div class="boxright" >
+     
+        <h3> 技术</h3>
+        <p>
+我们相信，创新永不步,科技始终为人。蚂蚁集团的技
+术员工占比全体员工的63%, 2021年新增授权专利
+6600+个,开源仓库800个，2021年科技投入金额188亿。
+        </p>
+        <p>技术职位包含工程、数据、算法、安全、
+C+ +/Python/Rust等多语种的岗位,所有技术同学都能在
+蚂蚁找到发挥的空间。</p>
+<div class="butt">
+  <p>马上申请</p>
+</div>
+   <div class="right7">
+   <img src="./image/campus_interest (1).png" alt="">
+</div>
+      </div>
+   
+</div>
+<div class="inbox_int">
+      <div class="boxright" >
+     
+        <h3> 产品</h3>
+        <p>
+蚌的集团产品坚持解决客炉球出发,多维度
+不断落实着蚂蚁的坚持为世界带来微小美好的改
+变蚂蚁做产品，可以以0到1，可从1到N,都可腹
+胳种能，半倍。融入产品团队，接触内部产品日
+常运营、搭建内部效能平台;可过实际对外产品的设
+计键，推动产品功能迭代。</p>
+        <p>根据职责产品职位可以分为评台产品、驴产品、数
+据型产品、商业型产品、海外产品。</p>
+<div class="butt">
+  <p>马上申请</p>
+</div>
+   <div class="right7">
+   <img src="./image/campus_interest (2).png" alt="">
+</div>
+      </div>
+   
+</div>
+<div class="inbox_int">
+      <div class="boxright" >
+     
+        <h3>运营</h3>
+        <p>
+在蚂蚁做运营，我们期待一围绕目标，过对需求的洞
+察,促进需求转化,并获得业务结果。对运营过程的计
+划、组织实施和控制。产品生产和服务创造密切相
+关,负駱项管理工作。 </p>
+        <p>运营岗位的分类有驴运营、产品运营、商品&商家运
+营、生态伙伴运营、内容运营。
+</p>
+<div class="butt">
+  <p>马上申请</p>
+</div>
+   <div class="right7">
+   <img src="./image/campus_interest (3).png" alt="">
+</div>
+      </div>
+   
+</div>
+<div class="inbox_int">
+      <div class="boxright" >
+     
+        <h3> 设计</h3>
+        <p>
+“设计有爱，温暖未来。”  </p>
+        <p>无论是消费者的每日数字生活、向球的数字普惠与技
+共享或是温馨有爱的公益践行,设计团队始终坚持通
+过有洞察和关怀的创造,不断实现技术务与人文体
+验的链接。所有设计词学都能在多元化的职位中,找到提
+升设计能能、关物户体验的上升空间。</p>
+<div class="butt">
+  <p>马上申请</p>
+</div>
+   <div class="right7">
+   <img src="./image/campus_interest (4).png" alt="">
+</div>
+      </div>
+   
+</div>
+<div class="inbox_int">
+      <div class="boxright" >
+     
+        <h3> 风险策略</h3>
+        <p>
+不仅需要理解业务,洞察风险,为业务保驾护航，还要
+于公司战略,进行风险和收益的科学决策，韙导"价值
+实现"的核心岗位,数据科学家务专家风险专家的
+综合体。</p>
+<div class="butt but77">
+  <p>马上申请</p>
+</div>
+   <div class="right7">
+   <img src="./image/campus_interest (5).png" alt="" >
+</div>
+      </div>
+   
+</div>
+<div class="inbox_int">
+      <div class="boxright" >
+     
+        <h3> 综合</h3>
+        <p>
+我们坚信人是蚂蚁集团保持鲜活生命力,创造力的根基。我
+们提供公平友善的工作环境以及丰富多元的工作机会,不
+限专业，不限背景，期待每-个人在这里都能得到成长，
+找到自己的价值，共铜搭建蚂蚁集团的未来。 </p>
+        <p>根据职责,综合类岗位主要有市场营销，客户服务,务/
+金融管培等。
+</p>
+<div class="butt">
+  <p>马上申请</p>
+</div>
+   <div class="right7">
+   <img src="./image/campus_interest (6).png" alt="">
+</div>
+      </div>
+   
+</div>
+
+     
+   
+
+</div>
+
+<!-- 成长，陪伴 -->
+<div class="campus_accompany">
+  <div class="title">
+    <p>成长和福利</p>
+  </div>
+  <div class="accompany01">
+    <img src="./image/campus_accompany (1).png" alt="">
+    <div class="right01">
+      <div class="title_content">
+            <h3>新人成长</h3>
+     <div> <p>师兄文化: </p><span>每一位入职蚂蚁的新同学，都会有自己的师兄，帮助你了解公司、融
+入团队、熟悉业务，并陪伴你的成长。生活上，工作上，给你答疑解惑，规划成
+长。</span></div>
+<div><p>星青年计划: </p><span>星青年是蚂蚁技术校招新人金牌培训项目，由蚂蚁技术学习成长中
+心创建，品牌诞生于2008年，关键字："主动，快乐，成长"。坚持"干中学、学
+中干，学以致用、用以促学、学用相长"的培养目标，帮助同学更好更快的融入
+与成长。</span></div>
+<div><p>蚂蚁百阿: </p><span>在加入蚂蚁的第一年，专门针对校招新同学不同阶段的线上线下培
+训，圆桌会，大咖分享会等多种多样的课程和活动，助力蚂蚁之旅顺利启航。</span>
+    </div>
+
+      </div>
+  </div>
+  </div>
+  <div class="accompany02">
+    <div class="lift02">
+            <div class="title_content">
+            <h3>新人关怀</h3>
+     <div> <p>温暖的文化活动: </p><span>兴趣帮派，蚂蚁公益活动，篮球联赛，佳节礼包等，期待每一
+个同学都在蚂蚁能够拥有温暖且充实的工作氛围。</span></div>
+
+<div><p>多样化福利: </p><span>免费健身房与理疗医务室，年度体检之外，为社会工龄3年以内的
+同学提供安家补贴，还有iHome置房无息贷款，帮助新入职场的你生活&工作健
+康发展。</span></div>
+
+
+
+      </div>
+    </div>
+     <img src="./image/campus_accompany (2).png" alt="">
+  </div>
+</div>
+
+<!-- 说标题 -->
+<div class="speak">
+  <div class="speak_title">
+  <p>学长学姐说</p>
+</div>
+    
+
+  <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+         <div class="box_up">
+           <img src="./image/campus_speak (1).jpg" alt="" />
+         </div>
+          <div class="swiper_box">
+            <div class="swbo">
+              <p>技术</p>
+            </div>
+            <h3>把对自己的完美主义带到工作里</h3>
+            <div class="h3_p">
+             <p> 实习后我就留在了蚂蚁，这里的氛围感觉很不错。我很喜欢挑战自己，在这
+儿解决复杂的问题，和我追求完美主义的性格完美契合。</p>
+<p>虽然经手的第一个项目有些波折，我也直接怕哭了，还好身边的同事反应够
+快，疯狂敲代码力挽狂澜。</p>
+
+
+            </div>
+          
+          </div>
+            <div class="box_next">
+              <div class="head"><img src="./image/campus_speak_xiao (1).png" alt=""></div>
+              <p >小鲜支付宝事业线-算法工程师</p>
+              <span>了解更多 <img src="./icon/up.svg" alt=""></span>
+
+            </div>
+        </div>
+        <div class="swiper-slide">
+         <div class="box_up">
+           <img src="./image/campus_speak (2).jpg" alt="" />
+         </div>
+          <div class="swiper_box">
+             <div class="swbo">
+              <p>产品</p>
+            </div>
+            <h3>越了解视障者，就越想为他们做点什么</h3>
+            <div class="h3_p">
+             <p>我曾经打开读屏模式，戴上眼罩，那时的手机就像一块砖，我想这块砖被视
+障者使用时能更方便些。后来和同事一起，开发了「挥一挥」验证码，避免
+滑块等依赖视觉的验证方式，挥一挥手机完成动作就行。我还想继续做点什
+么,对视障者的支持，不是特殊，更应该是常态，这才是科技的人性化。</p>
+
+            </div>
+          
+          </div>
+            <div class="box_next">
+              <div class="head"><img src="./image/campus_speak_xiao (2).png" alt=""></div>
+              <p >欢鹿大安全产品经理</p>
+              <span>了解更多 <img src="./icon/up.svg" alt=""></span>
+
+            </div>
+        </div>
+        <div class="swiper-slide">
+         <div class="box_up">
+           <img src="./image/campus_speak (3).jpg" alt="" />
+         </div>
+          <div class="swiper_box">
+             <div class="swbo">
+              <p>技术</p>
+            </div>
+            <h3>小研发也能做大项目</h3>
+            <div class="h3_p">
+             <p> 这些年，我从一个默默写代码的小研发,到能做大型项目的主架构，这在我
+开广东前，是想象不到的。</p>
+<p>我过年回家会跟家里人说，在蚂蚁我都做了些什么———
+帮过菲律宾和马来西
+亚的本地企业建设当地的钱包，也为商户提供了全球收单服务，让国内用户
+能开心买，国际卖家能安心读。
+</p>
+
+            </div>
+          
+          </div>
+            <div class="box_next">
+              <div class="head"><img src="./image/campus_speak_xiao (3).png" alt=""></div>
+              <p >美国际事业群-研发工程师
+</p>
+              <span>了解更多 <img src="./icon/up.svg" alt=""></span>
+
+            </div>
+        </div>
+        <div class="swiper-slide">
+         <div class="box_up">
+           <img src="./image/campus_speak (4).jpg" alt="" />
+         </div>
+          <div class="swiper_box">
+             <div class="swbo">
+              <p>产品</p>
+            </div>
+            <h3>用户有把锁心里更安全</h3>
+            <div class="h3_p">
+             <p>行业内，隐私计算技术在国内各大平台上逐步落地，我参与的可信隐私计算
+隐语平台也在当中出了一份力。我很高兴，只开始，未来的理想状态
+是，把流通中的个人数据上一把锁，能锁住安全和隐私，但锁不住价值和效
+率。这就是我们这群人一直想干的事。</p>
+
+
+            </div>
+          
+          </div>
+            <div class="box_next">
+              <div class="head"><img src="./image/campus_speak_xiao (4).png" alt=""></div>
+              <p >紫苔CTO线隐私计算产品经理</p>
+              <span>了解更多 <img src="./icon/up.svg" alt=""></span>
+
+            </div>
+        </div>
+ 
+     
+
+      </div>
+      <div class="swiper-button-next">
+       <img src="./icon/next.svg" alt="">
+      </div>
+      <div class="swiper-button-prev">
+         <img src="./icon/prev.svg" alt="">
+      </div>
+    </div>
+</div>
+ <script src="./utils/swiper.min.js"></script>
+<script src="./js/homepage_swiper.js"></script>
+
+
+
+
+
+        <!-- 底部 -->
+    <div class="bottom">
+      <div class="bot_content">
+        <div class="box">
+          <p>总部地址</p>
+          <p>中国杭州市西湖区</p>
+          <p>西溪路569号蚂蚁A空间</p>
+        </div>
+        <div class="box">
+          <p>招聘咨询</p>
+          <p>如需咨询招聘相关事宜</p>
+          <p>请拨打电话：0571-28280505</p>
+        </div>
+        <div class="box">
+          <p>关注我们</p>
+          <div class="hangQR">
+            <div class="image-container">
+            <img src="./icon/weixin.svg" alt="">
+            <img src="./icon/weibo.svg" alt="">
+            <img src="./icon/mai.svg" alt="">
+            <img src="./image/original.png" alt="">
+        </div>
+  
+          </div>
+                  <div class="hangQR_up">
+<img src="./image/weixin_QR.png" alt="">
+<img src="./image/weibo_QR.png" alt="">
+<img src="./image/mai_QR.png" alt="">
+<img src="./image/original_QR.png" alt="">
+</div>
+        </div>
+      </div>
+
+      <div class="foot">
+        <p>经营许可证编号：合字B2-20190048 &#124</p>
+        <p>ICP备案：浙B2-20100257-3  &#124</p>
+        <p>Copyright © 2023 蚂蚁科技集团股份有限公司  </p>
+      </div>
+
+    </div>
+    <script src="./js/commonBottom.js"></script>
+    
+    <script src="./utils/wow.js"></script>
+    <script src="./js/campus.js"></script>
+  </body>
+</html>

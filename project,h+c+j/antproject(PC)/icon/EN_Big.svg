@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="33px" viewBox="0 0 33 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-en</title>
+    <g id="招聘网站2轮定稿" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-en" transform="translate(2.000000, 2.000000)">
+            <rect id="矩形" stroke="#1677FF" stroke-width="2.5" x="0" y="0" width="29.5" height="29.5" rx="8"></rect>
+            <g id="EN" transform="translate(5.414000, 8.646000)" fill="#1677FF" fill-rule="nonzero">
+                <polygon id="路径" points="2.432 8.992 2.432 6.432 6.464 6.432 6.464 4.4 2.432 4.4 2.432 2.112 6.784 2.112 6.784 0 0 0 0 11.104 7.008 11.104 7.008 8.992"></polygon>
+                <polygon id="路径" points="8.992 11.104 11.392 11.104 11.392 2.656 11.488 2.656 15.328 11.104 18.672 11.104 18.672 0 16.288 0 16.288 7.936 16.192 7.936 12.704 0 8.992 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

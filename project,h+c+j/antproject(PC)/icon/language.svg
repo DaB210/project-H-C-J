@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pc-change-en</title>
+    <g id="pc-change-en" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="矩形" stroke="#1677FF" stroke-width="2" x="9" y="10" width="22" height="22" rx="4"></rect>
+        <path d="M18,26 L18,24.0979827 L14.0821918,24.0979827 L14.0821918,21.7925072 L17.5342466,21.7925072 L17.5342466,19.962536 L14.0821918,19.962536 L14.0821918,17.9020173 L17.8082192,17.9020173 L17.8082192,16 L12,16 L12,26 L18,26 Z M21.9834711,26 L21.9834711,18.3919308 L22.0628099,18.3919308 L25.2363636,26 L28,26 L28,16 L26.0297521,16 L26.0297521,23.1469741 L25.9504132,23.1469741 L23.0677686,16 L20,16 L20,26 L21.9834711,26 Z" id="EN" fill="#1677FF" fill-rule="nonzero"></path>
+    </g>
+</svg>

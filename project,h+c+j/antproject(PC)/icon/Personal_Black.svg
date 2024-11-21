@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-Personal-normal</title>
+    <g id="icon-Personal-normal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M20,9 C23.8659932,9 27,12.1340068 27,16 C27,17.890975 26.2501933,19.6068232 25.0316734,20.8664512 C29.1553536,22.3333644 32.4473009,25.5541734 34.0106382,29.6313161 C30.9446957,34.0823083 25.8130796,37 20,37 C14.1869204,37 9.05530429,34.0823083 5.98970723,29.6314806 C7.55266921,25.554042 10.8445433,22.3329113 14.9679714,20.8648902 C13.7498067,19.6068232 13,17.890975 13,16 C13,12.1340068 16.1340068,9 20,9 Z" id="形状结合" stroke="#111111" stroke-width="3" fill="#EEEEEE"></path>
+        <circle id="椭圆形备份-3" stroke="#111111" stroke-width="3" cx="20" cy="20" r="17"></circle>
+    </g>
+</svg>

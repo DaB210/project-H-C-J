@@ -1,0 +1,137 @@
+@import './global.scss';
+
+// 头部
+.header {
+    // width: getvw(375);
+    height: getvw(51);
+    opacity: 1;
+    border-bottom: getvw(1) solid #e9ecf0ff;
+    background: #ffffffff;
+    display: flex;
+
+    p {
+
+margin-left: getvw(141.75);
+        height: getvw(40);
+        // opacity: 1;
+        color: #555555ff;
+        font-size: getvw(16);
+        font-weight: 500;
+        font-family: "PingFang SC";
+        // text-align: left;
+        line-height: getvw(51);
+        // text-align: center;
+        &:last-child{
+            margin-left: getvw(118.75);
+            font-size: getvw(14);
+        }
+    }
+
+}
+
+// img-点击修改头像
+
+.head_portrait{
+    height: getvw(133.42);
+        opacity: 1;
+        border-bottom: getvw(1) solid #e9ecf0ff;
+        background: #ffffffff;
+
+        .img{
+            width: getvw(65.75);
+                height: getvw(65.75);
+                border-radius: getvw(32.88);
+                opacity: 1;
+                // background-color: #e8ccb7;
+                background-image: url(../img/personalData/head\ portrait.png);
+                background-size: getvw(65.75) getvw(65.75);
+                border: getvw(1) solid #394d3fff;
+
+                margin: auto;
+                margin-top: getvw(20);
+        }
+        p{
+        opacity: 1;
+        color: #555555ff;
+        font-size: getvw(14);
+        font-weight: 400;
+        font-family: "PingFang SC";
+text-align: center;
+margin-top: getvw(3);
+        }
+}
+// 姓名-手机-性别-生日
+.content{
+/* 在Chrome浏览器下 */
+    input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+        }
+  border-bottom: getvw(1) solid #e9ecf0ff;
+  height: getvw(61);
+        p{
+                    opacity: 1;
+                    color: #555555ff;
+                    font-size: getvw(14);
+                    font-weight: 400;
+                    font-family: "PingFang SC";
+                    margin-left: getvw(15);
+                    // margin-top: getvw(19);
+                    line-height: getvw(61);
+        }
+width: getvw(375);
+        display: flex;
+        flex-wrap: wrap;
+        input {
+            width: getvw(147);
+            height: getvw(19);
+            margin-left: getvw(45);
+                margin-top: getvw(21);
+            opacity: 1;
+            border: none;
+          
+            // &::placeholder{
+            //     color: #757575;
+            // }
+        }
+}
+// 性别
+.content_sex {
+
+    border-bottom: getvw(1) solid #e9ecf0ff;
+    height: getvw(61);
+
+    p {
+        opacity: 1;
+        color: #555555ff;
+        font-size: getvw(14);
+        font-weight: 400;
+        font-family: "PingFang SC";
+        margin-left: getvw(15);
+        // margin-top: getvw(19);
+        line-height: getvw(61);
+    }
+
+    width: getvw(375);
+    display: flex;
+
+    .sex {
+        width: getvw(147);
+        height: getvw(19);
+        margin-left: getvw(45);
+        margin-top: getvw(21);
+        opacity: 1;
+        border: none;
+       
+
+       input{
+        &:last-child {
+                margin-left: getvw(35);
+            }
+       }
+
+        // &::placeholder{
+        //     color: #757575;
+        // }
+    }
+}

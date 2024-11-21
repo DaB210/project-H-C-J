@@ -1,0 +1,457 @@
+@import'commonHeadBottom';
+
+@function getvw($w) {
+    @return calc($w/1440) * 100+vw;
+}
+
+// @function getvh($h) {
+//     @return calc($h/1024) * 100+vh;
+// }
+
+// .hangQR_up {
+//     img {
+
+//         position: absolute;
+
+//         display: none;
+//         width: getvw(128);
+//         height: getvw(128);
+//         left: getvw(860);
+//         bottom: getvw(-70);
+
+
+//         &:nth-child(2) {
+//             left: getvw(910);
+//         }
+
+//         &:nth-child(3) {
+//             left: getvw(970);
+//         }
+
+//         &:nth-child(4) {
+//             left: getvw(1020);
+//         }
+
+//     }
+
+
+// }
+
+
+.top {
+    z-index: 10;
+}
+
+.UAup {
+
+
+    img {
+        width: getvw(1415);
+        // height: getvw(400);
+        // margin-left: getvw(10);
+        margin-top: getvw(-150);
+
+    }
+
+    .title {
+        position: absolute;
+        margin-left: getvw(610);
+        margin-top: getvw(-40);
+
+        img {
+            width: getvw(200);
+
+        }
+    }
+}
+
+
+// 轮播图未更改
+.swiper {
+    // width: 400px;
+    // height: 300px;
+    // width: getvw(1440);
+
+    height: getvw(320);
+    // --swiper-theme-color: #ff6600;
+    // --swiper-pagination-color: #00ff33;
+    /* 单独设置按钮颜色 */
+    --swiper-navigation-color: #fbfdfe;
+    // #fbfdfe
+    /* 设置按钮大小 */
+    // --swiper-navigation-size: getvw(500);
+    // width: 21.21px;
+    // height: 21.21px
+
+    /* loading图颜色  */
+    // --swiper-preloader-color: pink;
+    margin-top: getvw(80);
+    overflow: hidden;
+    position: relative;
+}
+
+
+.swiper-slide>img {
+    width: 100%;
+}
+
+.swiper-button-prev {
+
+    position: absolute;
+    margin-left: getvw(174);
+
+}
+
+.swiper-button-next {
+    position: absolute;
+    margin-right: getvw(174);
+
+}
+
+
+
+
+
+
+
+
+.persistin_title {
+    p {
+        color: #111;
+        font-family: AlibabaPuHuiTiB;
+        // font-size: 40px;
+        // font-weight: 400;
+        font-size: getvw(40);
+        font-weight: getvw(400);
+        min-height: getvw(55);
+        letter-spacing: -1px;
+        margin: 100px 0 56px;
+        // min-height: 55px;
+        text-align: center;
+    }
+}
+
+.persistin {
+
+    margin-bottom: getvw(50);
+
+
+    margin-left: getvw(180);
+    // height: 320px;
+    // width: 1088px;
+    width: getvw(1088);
+    height: getvw(320);
+    border-radius: getvw(10);
+    background-image: url(../image/UnderstandingAnts_persistin.png);
+    background-size: 100% 100%;
+
+    .right {
+        width: getvw(310);
+        color: #fefefe;
+        margin-left: getvw(700);
+        // margin-top: getvw(150);
+        position: relative;
+        top: 20%;
+
+
+        p {
+            font-size: getvw(16);
+            margin-top: getvw(20);
+            margin-bottom: getvw(20);
+            line-height: getvw(22);
+
+            &:last-child {
+                width: getvw(100);
+                height: getvw(22);
+                padding: getvw(5);
+                border: 1px solid #fefefe;
+
+                text-align: center;
+
+                &:hover {
+
+                    cursor: pointer;
+                }
+            }
+        }
+
+        h3 {
+            font-size: getvw(24);
+            display: block;
+            // margin-top: getvw(150);
+            font-weight: bold;
+
+        }
+
+
+    }
+
+}
+
+
+.tabs_box {
+    margin-top: getvw(80);
+    margin-left: getvw(180);
+
+
+    .tabs {
+        display: flex;
+        width: getvw(1080);
+
+        .tab {
+            // width: 122px;
+            // height: 40px;
+            // border-radius: 20px;
+            width: getvw(122);
+            height: getvw(40);
+            border-radius: getvw(20);
+
+            &:hover {
+
+                cursor: pointer;
+            }
+
+            p {
+                color: #333333;
+                // font-size: 18px;
+                // font-weight: 400;
+                // font-family: "PingFang SC";
+                // text-align: left;
+                // line-height: 40px;
+                font-size: getvw(18);
+                font-weight: getvw(400);
+                line-height: getvw(40);
+                margin-left: getvw(16);
+            }
+
+        }
+    }
+
+    .tab-content {
+        // display: none;
+        margin-top: getvw(32);
+
+        width: getvw(1160);
+        display: flex;
+
+        .tab_Dbox {
+            display: flex;
+            flex-wrap: wrap;
+            // width: getvw(1080);
+        }
+
+        .tab_box {
+            width: getvw(343);
+            height: getvw(360);
+            margin-right: getvw(25);
+
+            &:hover {
+                // box-shadow: -10px 10px 40px 0 rgba(216, 218, 224, .5);
+                transform: translateY(-5px);
+                cursor: pointer;
+            }
+
+            .box_up {
+                img {
+                    position: relative;
+                    // width: 343.33px;
+                    // height: 260px;
+                    // border-radius: 12px;
+                    width: getvw(343);
+                    height: getvw(260);
+                    border-radius: getvw(12);
+                }
+
+            }
+
+            .box_look {
+                img {
+                    width: getvw(53);
+                    height: getvw(53);
+                    position: absolute;
+                    margin-left: getvw(144);
+                    margin-top: getvw(-153);
+                }
+            }
+
+            p {
+                // width: 228px;
+                //     height: 60px;
+                color: #333333;
+                // font-size: 20px;
+                // font-weight: 500;
+                // line-height: 30px;
+                font-family: "PingFang SC";
+                text-align: center;
+                width: getvw(228);
+                height: getvw(60);
+                font-weight: getvw(500);
+                font-size: getvw(20);
+                line-height: getvw(30);
+                margin-left: getvw(57);
+                margin-top: getvw(15);
+                font-weight: bold;
+            }
+
+            .p5 {
+                width: getvw(140);
+                margin-left: getvw(101);
+            }
+
+            .p33 {
+                width: getvw(300);
+                margin-left: getvw(20);
+            }
+
+        }
+    }
+}
+
+
+
+
+
+.active {
+    box-shadow: -3px 6px 6px rgba(181, 181, 181, 0.4);
+    font-weight: bold;
+
+}
+
+
+
+.swiper {
+    // width: 400px;
+    // height: 300px;
+    // width: getvw(1440);
+    margin-left: getvw(180);
+    width: getvw(1080);
+    height: getvw(420);
+    // --swiper-theme-color: #ff6600;
+    // --swiper-pagination-color: #00ff33;
+    /* 单独设置按钮颜色 */
+    --swiper-navigation-color: #fbfdfe;
+    // #fbfdfe
+    /* 设置按钮大小 */
+    // --swiper-navigation-size: getvw(500);
+    // width: 21.21px;
+    // height: 21.21px
+
+    /* loading图颜色  */
+    // --swiper-preloader-color: pink;
+    margin-top: getvw(80);
+    overflow: hidden;
+    position: relative;
+    // border: 1px solid #a9a9a9;
+    box-shadow: -3px 6px 20px rgba(181, 181, 181, 0.4) !important;
+
+    .swiper-wrapper {
+
+        .swiper-slide {
+            width: getvw(1080);
+            height: getvw(420);
+            border-radius: getvw(12);
+            display: flex;
+            overflow: hidden;
+
+            .left {
+                width: getvw(548);
+                height: getvw(420);
+
+                background: linear-gradient(to right bottom, #ffffff, #e8ffff);
+                padding: getvw(36);
+
+
+                h3 {
+                    color: #111;
+                    // font-family: AlibabaPuHuiTiM;
+                    // font-size: 26px;
+                    font-size: getvw(24);
+                    font-weight: bold;
+                    // line-height: getvw(52);
+                    margin-bottom: getvw(30);
+                }
+
+                h4 {
+                    color: #111;
+                    font-size: getvw(20);
+                    font-weight: bold;
+                    line-height: getvw(40);
+                    // border-bottom: 1px solid #b4b4b4 0.6;
+                    border-bottom: 2px solid rgba(180, 180, 180, 0.3);
+                }
+
+
+
+                p {
+                    color: #111;
+                    font-size: getvw(14);
+                    line-height: getvw(26);
+                    width: getvw(448);
+
+
+                }
+
+                // .paragraph {
+                //     display: none;
+
+                //     &:nth-child(3) {
+                //         display: block;
+                //     }
+
+
+                // }
+
+
+            }
+
+            .right {
+                img {
+                    width: getvw(530);
+                    height: getvw(420);
+                }
+            }
+        }
+    }
+}
+
+
+.swiper-slide>img {
+    width: 100%;
+}
+
+.swiper-button-prev {
+
+    position: absolute;
+    margin-left: getvw(4);
+    background: #0000001f;
+    width: getvw(56) !important;
+    height: getvw(56) !important;
+    border-radius: getvw(28);
+    font-size: getvw(20) !important;
+    color: rgba(0, 0, 0, 0) !important;
+
+    img {
+        margin-left: getvw(20);
+        // margin: auto;
+        width: getvw(30);
+        height: getvw(30);
+    }
+
+}
+
+.swiper-button-next {
+    position: absolute;
+    margin-right: getvw(4);
+    background: #0000001f;
+    width: getvw(56) !important;
+    height: getvw(56) !important;
+    border-radius: getvw(28);
+    color: rgba(0, 0, 0, 0) !important;
+
+    img {
+        margin-left: getvw(30);
+        // margin: auto;
+        width: getvw(30);
+        height: getvw(30);
+    }
+}

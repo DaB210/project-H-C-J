@@ -1,0 +1,217 @@
+@import './global.scss';
+
+body {
+    background-color: #eaebef;
+}
+
+// 头部
+.header {
+    // width: getvw(375);
+    height: getvw(42);
+    opacity: 1;
+    background: #ffffffff;
+
+    p {
+        height: getvw(40);
+        // opacity: 1;
+        color: #555555ff;
+        font-size: getvw(16);
+        font-weight: 400;
+        font-family: "PingFang SC";
+        // text-align: left;
+        line-height: getvw(42);
+        text-align: center;
+    }
+}
+
+// 背景—用户-注销
+.background {
+    width: getvw(375);
+    height: getvw(139);
+    background-image: url(../img/userPersonalCenter/bcg.jpg);
+    background-size: getvw(375) getvw(139);
+    // padding-top: getvw(25);
+    position: relative;
+
+    .h5 {
+        margin-left: getvw(127.72);
+        line-height: getvw(50);
+
+        p {
+
+            color: #ffffffff;
+            font-size: getvw(14);
+            font-weight: 400;
+            font-family: "PingFang SC";
+
+
+
+        }
+    }
+
+    .head {
+
+        width: getvw(120);
+        height: getvw(35);
+        opacity: 1;
+        background-color: #ffffffff;
+        margin: auto;
+        // position: absolute;
+
+
+        p {
+            // position: relative;
+            opacity: 1;
+            color: #333333ff;
+            font-size: getvw(14);
+            font-weight: 400;
+            font-family: "PingFang SC";
+            text-align: center;
+            line-height: getvw(35);
+        }
+
+    }
+
+
+
+}
+
+
+.content_s {
+    width: getvw(363.75);
+    height: getvw(119);
+    border-radius: getvw(5);
+    margin: auto;
+    opacity: 1;
+    background: #ffffffff;
+    margin-top: getvw(5);
+
+    .top {
+        width: getvw(333.75);
+        height: getvw(46);
+        margin: auto;
+        margin-top: getvw(15);
+        // background-color: pink;
+        opacity: 1;
+        border-bottom: getvw(1) solid #e9ecf0ff;
+        display: flex;
+        justify-content: space-between;
+
+
+
+        p {
+
+            // width: getvw(56.2);
+            height: getvw(17);
+            opacity: 1;
+            color: #555555ff;
+            font-size: getvw(14);
+            font-weight: 400;
+            font-family: "PingFang SC";
+            text-align: left;
+            line-height: getvw(61);
+
+            span {
+                font-size: getvw(14);
+            }
+
+        }
+    }
+
+    .bottom {
+        margin: auto;
+        width: getvw(333.75);
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            width: getvw(42);
+            // color: #555555ff;
+
+            span {
+                // text-align: center;
+                display: block;
+                margin-left: getvw(11);
+                color: #555555ff;
+                font-size: getvw(18);
+                margin-bottom: getvw(9);
+                margin-top: getvw(16);
+            }
+
+            p {
+                opacity: 1;
+                color: #555555ff;
+                font-size: getvw(14);
+                font-weight: 400;
+                font-family: "PingFang SC";
+                text-align: left;
+                // margin-top: getvw(37);
+            }
+        }
+    }
+}
+
+// 优惠劵-收货地址-设置
+.content_x {
+    margin: auto;
+    margin-top: getvw(5);
+    border-radius: getvw(5);
+    opacity: 1;
+    background: #ffffffff;
+    width: getvw(363.75);
+    height: getvw(133);
+    margin-bottom: getvw(50);
+
+    a {
+        margin: auto;
+        display: block;
+        width: getvw(333.75);
+        display: flex;
+
+        // border-bottom: getvw(1) solid #e9ecf0ff;
+        // display: flex;
+        span {
+            margin-right: getvw(5);
+            font-size: getvw(21);
+
+        }
+
+        h3 {
+            line-height: getvw(40);
+            font-size: getvw(14);
+            margin-left: getvw(320);
+            position: relative;
+        }
+
+        p {
+            position: absolute;
+            width: getvw(130);
+            height: getvw(40);
+            opacity: 1;
+            color: #333333ff;
+            font-size: getvw(16);
+            font-weight: 400;
+            font-family: "PingFang SC";
+            margin-left: getvw(10);
+            line-height: getvw(40);
+
+
+
+            // background-color: pink;
+
+            // h3 {
+            //     font-size: getvw(0);
+            //     line-height: getvw(40);
+            // }
+
+        }
+
+        &:nth-of-type(1) {
+            border-bottom: getvw(1) solid #e9ecf0ff;
+        }
+
+        &:nth-of-type(2) {
+            border-bottom: getvw(1) solid #e9ecf0ff;
+        }
+    }
+}

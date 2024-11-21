@@ -1,0 +1,211 @@
+@import './global.scss';
+
+// 头部
+.header {
+    // width: getvw(375);
+    height: getvw(50);
+    opacity: 1;
+    // border-bottom: getvw(1) solid #e9ecf0ff;
+    // background: #ffffffff;
+
+    text-align: center;
+
+    p {
+
+        // margin-left: getvw(141.75);
+        height: getvw(50);
+        // opacity: 1;
+        color: #555555ff;
+        font-size: getvw(16);
+        font-weight: 500;
+        font-family: "PingFang SC";
+        // text-align: left;
+        line-height: getvw(50);
+
+
+    }
+}
+
+
+.logo {
+    img {
+        width: getvw(138);
+        height: getvw(56.9);
+        margin-left: getvw(118.5);
+        margin-top: getvw(30);
+        margin-bottom: getvw(35);
+    }
+}
+
+
+// 手机-验证码
+.content {
+
+    /* 在Chrome浏览器下 */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+
+    // position: relative;
+    // margin-top: getvw(35);
+    // background-color: pink;
+    border-bottom: getvw(2) solid #e9ecf0ff;
+    height: getvw(73);
+    display: flex;
+    flex-wrap: wrap;
+
+    p {
+
+        width: getvw(300);
+        opacity: 1;
+        color: #555555ff;
+        font-size: getvw(14);
+        font-weight: 400;
+        font-family: "PingFang SC";
+        margin-left: getvw(15);
+        margin-top: getvw(18);
+        line-height: getvw(20);
+    }
+
+    margin: auto;
+    width: getvw(345);
+    display: flex;
+    flex-wrap: wrap;
+
+    input {
+        width: getvw(231);
+        height: getvw(19);
+        margin-left: getvw(15);
+        margin-top: getvw(1);
+        opacity: 1;
+        border: none;
+        font-size: getvw(14);
+
+        // &::placeholder{
+        //     color: #757575;
+        // }
+    }
+
+    a {
+        span {
+            opacity: 1;
+            color: #555555ff;
+
+            font-size: getvw(14);
+            font-weight: 400;
+            font-family: "PingFang SC";
+            text-align: left;
+            line-height: getvw(19);
+
+        }
+    }
+}
+
+// 验证码登录/注册
+.go_login {
+    width: getvw(345);
+    height: getvw(45);
+    opacity: 1;
+    background-color: #884e22ff;
+    margin: auto;
+    margin-top: getvw(36);
+
+    p {
+
+        opacity: 1;
+        color: #ffffffff;
+        font-size: getvw(17.5);
+        font-weight: 400;
+        font-family: "PingFang SC";
+        text-align: center;
+        line-height: getvw(45);
+
+    }
+}
+
+
+
+// 密码登录-第三方登录
+.bottom {
+
+    // width: getvw(375);
+    //    text-align: center;
+    p {
+
+
+        opacity: 1;
+        color: #555555ff;
+        font-size: getvw(17.5);
+        font-weight: 400;
+        font-family: "PingFang SC";
+        text-align: center;
+        margin-top: getvw(30);
+
+    }
+}
+
+
+.third-party {
+    opacity: 1;
+    width: getvw(300);
+    height: getvw(50);
+    border-top: getvw(1) solid #e9ecf0ff;
+    margin: auto;
+    margin-top: getvw(30);
+    position: relative;
+
+    .third_s {
+        background-color: #ffffff;
+        width: getvw(130);
+        height: getvw(17);
+        position: absolute;
+        margin-left: getvw(80);
+        transform: translateY(getvw(-7));
+
+        p {
+            // position: absolute;
+            opacity: 1;
+            color: #555555ff;
+            font-size: getvw(14);
+            font-weight: 400;
+            font-family: "PingFang SC";
+            line-height: getvw(17);
+            margin-left: getvw(30);
+            // transform: translateY(getvw(-7));
+
+        }
+    }
+}
+
+
+.third {
+    margin-top: getvw(33);
+    margin-left: getvw(60);
+
+    i {
+        margin-right: getvw(5);
+        color: #555555ff;
+        font-size: getvw(19);
+    }
+
+    a {
+        &:last-child {
+            margin-left: getvw(110);
+
+
+        }
+
+        span {
+            width: getvw(20);
+            height: getvw(17);
+            opacity: 1;
+            color: #555555ff;
+            font-size: getvw(14);
+            font-weight: 400;
+            font-family: "Tahoma";
+            text-align: left;
+
+        }
+    }
+}

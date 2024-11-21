@@ -1,0 +1,277 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/* 禁用长按页面时弹出的菜单 */
+img,
+a {
+  -webkit-touchu-callout: none;
+}
+
+a {
+  /* 清除点击选中高亮 */
+  -webkit-tap-highlight-color: transparent;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.3333333333vw 13.3333333333vw 0;
+  background-color: #F6F6F6;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li a {
+  color: #333333;
+  text-align: center;
+}
+nav ul li a i {
+  font-size: 6.6666666667vmin !important;
+}
+nav ul li a p {
+  font-size: 3.2vmin;
+  line-height: 4vw;
+}
+nav ul .current a {
+  color: #884E22;
+}
+
+body {
+  background-color: #eaebef;
+}
+
+.header {
+  height: 11.2vw;
+  opacity: 1;
+  border-bottom: 0.2666666667vw solid #e9ecf0;
+  background: white;
+  display: flex;
+}
+.header span {
+  font-size: 5.3333333333vw;
+  line-height: 11.2vw;
+  margin-left: 2.6666666667vw;
+  position: relative;
+}
+.header a {
+  color: #555555;
+}
+.header a h3 {
+  font-size: 4.2666666667vw;
+  line-height: 13.6vw;
+  margin-left: 82.6666666667vw;
+}
+.header p {
+  position: absolute;
+  text-align: center;
+  margin-left: 38.6666666667vw;
+  height: 10.6666666667vw;
+  color: #555555;
+  font-size: 4.2666666667vw;
+  font-weight: 500;
+  font-family: "PingFang SC";
+  line-height: 11.2vw;
+  text-align: center;
+}
+
+.content {
+  width: 97.3333333333vw;
+  height: 20.5333333333vw;
+  margin: auto;
+  opacity: 1;
+  background: white;
+}
+.content a p {
+  padding-top: 5.3333333333vw;
+  padding-left: 5.3333333333vw;
+  opacity: 1;
+  color: #555555;
+  font-size: 3.7333333333vw;
+  margin-top: 1.3333333333vw;
+  font-weight: 700;
+  font-family: "Tahoma";
+  text-align: left;
+  margin-bottom: 2.6666666667vw;
+}
+.content a span {
+  opacity: 1;
+  color: #555555;
+  font-size: 3.7333333333vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+  text-align: left;
+  padding-left: 5.3333333333vw;
+}
+.content a i {
+  position: relative;
+  color: #555555;
+  font-size: 8vw;
+  margin-left: 80vw;
+  bottom: 50%;
+}
+
+.bottom {
+  margin: auto;
+  opacity: 1;
+  width: 80vw;
+  height: 11.2vw;
+  background-color: #884e22;
+}
+.bottom p {
+  margin-top: 122.6666666667vw;
+  opacity: 1;
+  color: white;
+  font-size: 4.2666666667vw;
+  font-weight: 400;
+  line-height: 11.2vw;
+  font-family: "PingFang SC";
+  text-align: center;
+}
+
+/*# sourceMappingURL=address.css.map */
