@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>登录</title>
+  <link rel="stylesheet" href="./bootstrap/bootstrap.min.css" />
+  <link rel="stylesheet" href="./bootstrap/bootstrap-icons.css" />
+  <link rel="stylesheet" href="./css/common.css" />
+  <style>
+    .form-control:focus {
+      border-color: #e0e6ed;
+      box-shadow: none;
+    }
+
+    .form-control,
+    .form-group,
+    .input-group {
+      transition: none !important;
+    }
+
+    .text-blue {
+      color: #499FEE;
+    }
+
+    .text-blue:hover {
+      color: #499FEE;
+    }
+  </style>
+</head>
+
+<body class="application application-offset">
+  <div class="container-fluid container-application">
+    <div class="main-content position-relative">
+      <!-- Page content -->
+      <div class="page-content">
+        <div class="min-vh-100 py-5 d-flex align-items-center">
+          <div class="w-100">
+            <div class="row justify-content-center">
+              <div class="col-sm-8 col-lg-4">
+                <div class="card shadow zindex-100 mb-0">
+                  <div class="card-body px-md-5 py-5">
+                    <div class="mb-5">
+                      <h6 class="h3">ECharts系统-登录</h6>
+                    </div>
+                    <span class="clearfix"></span>
+                    <form role="form" autocomplete="off">
+                      <div class="form-group">
+                        <label class="form-control-label">账号</label>
+                        <div class="input-group input-group-merge">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="bi bi-person"></i></span>
+                          </div>
+                          <input name="username" type="text" class="form-control" id="input-email"
+                            placeholder="请输入账号" />
+                        </div>
+                      </div>
+                      <div class="form-group mb-4">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <div>
+                            <label class="form-control-label">密码</label>
+                          </div>
+                          <div class="mb-2">
+                            <a href="javascript:;"
+                              class="small text-muted text-underline--dashed border-primary">忘记密码</a>
+                          </div>
+                        </div>
+                        <div class="input-group input-group-merge">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="bi bi-key"></i></span>
+                          </div>
+                          <input name="password" type="password" class="form-control" id="input-password"
+                            placeholder="请输入密码" />
+                          <div class="input-group-append">
+                            <span class="input-group-text">
+                              <a href="javascript:;" data-toggle="password-text" data-target="#input-password">
+                                <i class="bi bi-eye-fill text-blue"></i>
+                              </a>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mt-4">
+                        <button id="btn-login" type="button" class="btn btn-sm btn-info btn-icon btn-blue rounded-pill">
+                          <span class="btn-inner--text">登录</span>
+                          <span class="btn-inner--icon"><i class="bi bi-arrow-right"></i></span>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="card-footer px-md-5">
+                    <small>没有注册？</small> <a href="./register.html" class="small font-weight-bold text-blue">创建账号</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- toast -->
+  <div class="position-fixed top-0 start-50 pt-4" style="z-index: 999; transform: translateX(-50%)">
+    <div id="myToast" class="toast bg-rgba">
+      <div class="toast-body">提示消息</div>
+    </div>
+  </div>
+  <script src="./bootstrap/bootstrap.min.js"></script>
+  <script src="./lib/form-serialize.js"></script>
+  <script src="./lib/axios.js"></script>
+  <script src="./js/common.js"></script>
+  <script>
+    // 注册功能
+    // 1. 获取注册按钮 注册点击事件
+    document.querySelector('#btn-login').addEventListener('click', async function () {
+      // 2. 获取输入框的 属性值  
+      const formObj = document.querySelector('form')
+      // 利用 form-serialize 插件获取表单输入框的值
+      // hash: true 表示收集到的数据 是一个对象 
+      // empty: true 表示可以收集 空数据
+      const data = serialize(formObj, { hash: true, empty: true })
+
+      // 3. 判断 数据的合法性
+      const userReg = /^\w{2,30}$/
+      const pwdReg = /^\w{6,30}$/
+      if (!userReg.test(data.username)) {
+        // 让 toast 显示出来
+        return showToastMsg('用户名必须在2~30位之间')
+      }
+
+      if (!pwdReg.test(data.password)) {
+        // return alert('密码必须在6~30位之间')
+        return showToastMsg('密码必须在6~30位之间')
+      }
+
+      // 4. 发送ajax 请求
+      try {
+        const res = await axios({
+          url: '/login',
+          method: 'post',
+          data
+        })
+        // 注册成功 让页面跳转到 后台首页
+        location.href = './index.html'
+        // console.log(res.data.data)
+        // 需要将 登录成功后 返回的用户名 信息保存到本地存储里面
+        localStorage.setItem('CMSBJ55', res.data.username)
+        // 在本地存储里面保存 token 字符串
+        localStorage.setItem('CMSBJ55_TOKEN', res.data.token)
+      } catch (error) {
+        // console.dir(error)
+        // console.log(error.response.data.message);
+        showToastMsg(error.response.data.message)
+      }
+
+    })
+  </script>
+</body>
+
+</html>
